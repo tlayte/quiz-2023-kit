@@ -7,7 +7,7 @@
 
 <section data-question-number={questionNumber}>
     <div class="container">
-        <img class="cover" src={image} alt="" />
+        <img class="cover" src={image} width="460" height="276" alt="" />
         <ol class="answers">
             <li><slot name="a"/></li>
             <li><slot name="b"/></li>
@@ -15,6 +15,7 @@
             <li><slot name="d"/></li>
         </ol>
     </div>
+    <slot name="notes"/>
 </section>
 
 <style>
