@@ -12,7 +12,7 @@
 
 <style>
     .flag .icon {
-        font-family: 'Noto Color Emoji';
+        font-family: 'Noto Color Emoji', sans-serif;
         font-size: 6rem;
     }
 </style>
