@@ -12,6 +12,7 @@
     import TheSimpsons from './assets/the_simpsons.mp3';
     import Appearances from './assets/appearances.mp3';
     import Dark from './assets/dark.mp3';
+    import Intro from "$lib/rounds/Music/Intro.svelte";
 
     /** @type {number} */
     export let roundNumber;
@@ -25,76 +26,40 @@
             In this round we will play you roughly 20 seconds of the intro or theme of a popular series. You have to write the name of the show.
         </aside>
     </section>
-    <section data-question-number={++questionCount}>
-        <audio src={DrWho} controls />
-        <aside class="notes">
-            <p>Doctor Who</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Potter} controls />
-        <aside class="notes">
-            <p>Harry Potter</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={GameOfThrones} controls />
-        <aside class="notes">
-            <p>Game of Thrones</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={KnightRider} controls />
-        <aside class="notes">
-            <p>Knight Rider</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Airwolf} controls />
-        <aside class="notes">
-            <p>Airwolf</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={ATeam} controls />
-        <aside class="notes">
-            <p>A-Team</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Hawaii50} controls />
-        <aside class="notes">
-            <p>Hawaii 5-0</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Mash} controls />
-        <aside class="notes">
-            <p>MASH</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={RickAndMorty} controls />
-        <aside class="notes">
-            <p>Rick and Morty</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={TheSimpsons} controls />
-        <aside class="notes">
-            <p>The Simpsons</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Appearances} controls />
-        <aside class="notes">
-            <p>Keeping Up Appearances</p>
-        </aside>
-    </section>
-    <section data-question-number={++questionCount}>
-        <audio src={Dark} controls />
-        <aside class="notes">
-            <p>Dark</p>
-        </aside>
-    </section>
+    <Intro track={DrWho} questionNumber={++questionCount}>
+        Doctor Who
+    </Intro>
+    <Intro track={Potter} questionNumber={++questionCount}>
+        Harry Potter
+    </Intro>
+    <Intro track={GameOfThrones} questionNumber={++questionCount}>
+        Game of Thrones
+    </Intro>
+    <Intro track={KnightRider} questionNumber={++questionCount}>
+        Knight Rider
+    </Intro>
+    <Intro track={Airwolf} questionNumber={++questionCount}>
+        Airwolf
+    </Intro>
+    <Intro track={ATeam} questionNumber={++questionCount}>
+        A-Team
+    </Intro>
+    <Intro track={Hawaii50} questionNumber={++questionCount}>
+        Hawaii 5-0
+    </Intro>
+    <Intro track={Mash} questionNumber={++questionCount}>
+        MASH
+    </Intro>
+    <Intro track={RickAndMorty} questionNumber={++questionCount}>
+        Rick and Morty
+    </Intro>
+    <Intro track={TheSimpsons} questionNumber={++questionCount}>
+        The Simpsons
+    </Intro>
+    <Intro track={Appearances} questionNumber={++questionCount}>
+        Keeping Up Appearances
+    </Intro>
+    <Intro track={Dark} questionNumber={++questionCount}>
+        Dark
+    </Intro>
 </Round>
