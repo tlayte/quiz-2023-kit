@@ -17,7 +17,7 @@ section .outlined:before {
     inset: 0;
     -webkit-text-stroke: 0.15em white;
     z-index: -2;
-    text-shadow: 0 0 13px #000;
+    text-shadow: 0 0 0.15em #000;
 }
 
 section .outlined:after {
