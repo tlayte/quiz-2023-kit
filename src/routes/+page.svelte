@@ -1,7 +1,7 @@
 <script>
     import Slides from '$lib/Slides.svelte';
     import Title from '$lib/assets/QuizTitle.png';
-    import {Photography, Tech, Community, Books, FunGames, Music} from "$lib/rounds";
+    import {Photography, Tech, Community, Books, FunGames, Music, Art, Food, AI, Shopping, Scrawlr, Crafts} from "$lib/rounds";
 
     let roundCount = 0;
 </script>
@@ -25,5 +25,11 @@
     <Books roundNumber={++roundCount}/>
     <FunGames roundNumber={++roundCount}/>
     <Music roundNumber={++roundCount}/>
+    <Art roundNumber={++roundCount}/>
+    <Food roundNumber={++roundCount}/>
+    <AI roundNumber={++roundCount}/>
+    <Shopping roundNumber={++roundCount}/>
+    <Scrawlr roundNumber={++roundCount}/>
+    <Crafts roundNumber={++roundCount}/>
 
 </Slides>

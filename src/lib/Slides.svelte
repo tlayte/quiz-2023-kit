@@ -11,21 +11,27 @@
         deck.initialize();
 
         /** @type {HTMLElement} */
-        const topBar = document.querySelector('.top-bar>div');
+        const topBarRound = document.querySelector('.top-bar>h4');
+        /** @type {HTMLElement} */
+        const topBarTitle = document.querySelector('.top-bar>h5');
         deck.on('slidechanged', (event) => {
             /** @type {HTMLElement} */
             let slide = event.currentSlide;
             const round = Number(slide.parentElement.dataset.roundNumber);
             const question = slide.dataset.questionNumber;
+            const roundTitle = slide.parentElement.dataset.roundTitle || '';
 
             console.log(`Round ${round}, Question ${question}`);
 
-            topBar.hidden = round === undefined || round === 0 || isNaN(round);
-            if(question === undefined) {
-                topBar.innerHTML = `Round ${round}`;
-                return;
+            topBarRound.hidden = round === undefined || round === 0 || isNaN(round);
+            topBarTitle.hidden = topBarRound.hidden;
+            if (question === undefined) {
+                topBarRound.innerHTML = `Round ${round}`;
+            } else {
+                topBarRound.innerHTML = `Round ${round}, Question ${question}`;
             }
-            topBar.innerHTML = `Round ${round}, Question ${question}`;
+            topBarTitle.innerHTML = roundTitle;
+            console.log
         });
     });
 </script>
