@@ -9,13 +9,13 @@
 <Slides>
     <section data-auto-animate data-auto-animate-restart>
         <div style="position:relative">
-            <img data-id="logo" src={Title} style="translate:0 -100vh"/>
+            <img data-id="logo" src={Title} style="translate:0 -100vh" alt=""/>
         </div>
         <p>Are you ready?</p>
     </section>
     <section data-auto-animate>
         <div style="position:relative">
-            <img data-id="logo" src={Title} style="translate:0 0"/>
+            <img data-id="logo" src={Title} style="translate:0 0" alt=""/>
         </div>
         <p>Let's GO!</p>
     </section>

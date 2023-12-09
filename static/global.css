@@ -1,5 +1,6 @@
 @font-face {
     font-family: Lapsus;
+    /*noinspection CssUnknownTarget*/
     src: url("/LapsusPro-Bold.otf") format("opentype");
 }
 
