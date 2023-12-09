@@ -33,3 +33,9 @@
     <Crafts roundNumber={++roundCount}/>
 
 </Slides>
+
+<style>
+    :global(body) {
+        --r-heading-letter-spacing: 0;
+    }
+</style>
