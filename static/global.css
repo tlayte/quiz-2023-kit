@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Lapsus;
+    src: url("/LapsusPro-Bold.otf") format("opentype");
+}
+
+section .outlined {
+    --r-heading-font: Lapsus, sans-serif;
+    position: relative;
+}
+
+section .outlined:before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    -webkit-text-stroke: 0.15em white;
+    z-index: -2;
+    text-shadow: 0 0 13px #000;
+}
+
+section .outlined:after {
+    content: attr(data-text);
+    background: linear-gradient(0deg, #35726d, #85c9c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lapsus Pro', sans-serif;
+    font-size: 2em;
+    position: fixed;
+    width: 100%;
+}
+.top-bar>div {
+    padding: 1rem;
+    color: white;
+}

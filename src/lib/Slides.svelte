@@ -9,6 +9,24 @@
         await tick();
         const deck = new Reveal({hash: true, slideNumber: true});
         deck.initialize();
+
+        /** @type {HTMLElement} */
+        const topBar = document.querySelector('.top-bar>div');
+        deck.on('slidechanged', (event) => {
+            /** @type {HTMLElement} */
+            let slide = event.currentSlide;
+            const round = Number(slide.parentElement.dataset.roundNumber);
+            const question = slide.dataset.questionNumber;
+
+            console.log(`Round ${round}, Question ${question}`);
+
+            topBar.hidden = round === undefined || round === 0 || isNaN(round);
+            if(question === undefined) {
+                topBar.innerHTML = `Round ${round}`;
+                return;
+            }
+            topBar.innerHTML = `Round ${round}, Question ${question}`;
+        });
     });
 </script>
 
