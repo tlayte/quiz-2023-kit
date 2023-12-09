@@ -1,0 +1,35 @@
+pytube https://www.youtube.com/watch?v=GbfVmzF7N4g -a
+ffmpeg -i '.\Knight Rider Theme Song (Intro InstrumentalOriginal) - Stu Phillips.mp4' -t 00:00:30 -af "afade=t=out:st=25:d=5" knight_rider.mp3
+
+pytube https://www.youtube.com/watch?v=TZE9gVF1QbA -a
+ffmpeg -i '.\Opening Credits  Game of Thrones  Season 8 (HBO).mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" GOT.mp3
+
+pytube https://www.youtube.com/watch?v=wtHra9tFISY -a
+ffmpeg -i '.\Hedwigs Theme.mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" harry_potter.mp3
+
+pytube https://www.youtube.com/watch?v=75V4ClJZME4 -a
+ffmpeg -i '.\Doctor Who (1963) -  Original Theme music video.mp4' -ss 00:00:01 -t 00:00:21 -af "afade=t=out:st=15:d=5" dr_who.mp3
+
+pytube https://www.youtube.com/watch?v=Y06tEqiPQsE -a
+ffmpeg -i '.\BrianTyler Hawaii Five O TV Theme.mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" hawaii.mp3
+
+pytube https://www.youtube.com/watch?v=GIGYLBVjYZA -a
+ffmpeg -i '.\Mash theme song.mp4' -t 00:00:30 -af "afade=t=out:st=25:d=5" mash.mp3
+
+pytube https://www.youtube.com/watch?v=wh10k2LPZiI -a
+ffmpeg -i '.\Rick and Morty Theme Song [HD].mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" rick_and_morty.mp3
+
+pytube https://www.youtube.com/watch?v=Fttst9dG6Ko -a
+ffmpeg -i '.\The Simpsons Main Title Theme.mp4' -ss 00:00:08 -t 00:00:21 -af "afade=t=in:st=8:d=1,afade=t=out:st=24:d=6" the_simpsons.mp3
+
+pytube https://www.youtube.com/watch?v=SYeN3HpRSlE -a
+ffmpeg -i '.\Keeping Up Appearances Full Theme Tune  Stereo Version  1991-1995.mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" appearances.mp3
+
+pytube https://www.youtube.com/watch?v=8c399HPb01s -a
+ffmpeg -i '.\Dark  Season 1 - Opening Credits  Intro (Netflix Series).mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" dark.mp3
+
+pytube https://www.youtube.com/watch?v=3C6Qq3tknXc -a
+ffmpeg -i '.\Airwolf   Original Soundtrack Theme   Extended Version.mp4' -ss 00:00:02 -t 00:00:20 -af "afade=t=out:st=17:d=5" airwolf.mp3
+
+pytube https://www.youtube.com/watch?v=wyz_2DEah4o -a
+ffmpeg -i '.\The A-Team Full Theme Tune.mp4' -t 00:00:22 -af "afade=t=out:st=17:d=5" ateam.mp3
