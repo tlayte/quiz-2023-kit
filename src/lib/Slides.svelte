@@ -4,10 +4,11 @@
 
     import Reveal from 'reveal.js';
     import {onMount, tick} from 'svelte';
+    import RevealNotes from "reveal.js/plugin/notes/notes";
 
     onMount(async () => {
         await tick();
-        const deck = new Reveal({hash: true, slideNumber: true});
+        const deck = new Reveal({hash: true, slideNumber: true, plugins: [RevealNotes], defaultTiming: 20});
         deck.initialize();
 
         /** @type {HTMLElement} */

@@ -5,7 +5,7 @@
     export let subtitle;
 </script>
 
-<section>
+<section data-timing="5">
     <div class="title-box">
         <h1 class="outlined" data-text={title}></h1>
         <h2 class="outlined" data-text={subtitle}></h2>

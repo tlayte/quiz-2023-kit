@@ -7,13 +7,13 @@
 </script>
 
 <Slides>
-    <section data-auto-animate data-auto-animate-restart>
+    <section data-auto-animate data-auto-animate-restart data-timing={60*5}>
         <div style="position:relative">
             <img data-id="logo" src={Title} style="translate:0 -100vh" alt=""/>
         </div>
         <p>Are you ready?</p>
     </section>
-    <section data-auto-animate>
+    <section data-auto-animate data-timing="10">
         <div style="position:relative">
             <img data-id="logo" src={Title} style="translate:0 0" alt=""/>
         </div>

@@ -1,9 +1,11 @@
 <script>
     /** @type {number} */
     export let questionNumber;
+    /** @type {number} */
+    export let timing;
 </script>
 
-<section data-question-number={questionNumber}>
+<section data-question-number={questionNumber} data-timing={timing}>
     <div>
         <blockquote class="quote EN">
             <p><slot/></p>
