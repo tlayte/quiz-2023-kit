@@ -8,32 +8,40 @@
 
     onMount(async () => {
         await tick();
-        const deck = new Reveal({hash: true, slideNumber: true, plugins: [RevealNotes], defaultTiming: 20});
-        deck.initialize();
 
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const topBarRound = document.querySelector('.top-bar>h4');
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const topBarTitle = document.querySelector('.top-bar>h5');
-        deck.on('slidechanged', (event) => {
-            /** @type {HTMLElement} */
-            let slide = event.currentSlide;
-            const round = Number(slide.parentElement.dataset.roundNumber);
-            const question = slide.dataset.questionNumber;
-            const roundTitle = slide.parentElement.dataset.roundTitle || '';
+        if (topBarRound === null || topBarTitle === null) {
+            return;
+        }
 
-            console.log(`Round ${round}, Question ${question}`);
+        const deck = new Reveal({hash: true, slideNumber: true, plugins: [RevealNotes], defaultTiming: 20});
+        await deck.initialize();
 
-            topBarRound.hidden = round === undefined || round === 0 || isNaN(round);
-            topBarTitle.hidden = topBarRound.hidden;
-            if (question === undefined) {
-                topBarRound.innerHTML = `Round ${round}`;
-            } else {
-                topBarRound.innerHTML = `Round ${round}, Question ${question}`;
-            }
-            topBarTitle.innerHTML = roundTitle;
-            console.log
-        });
+        deck.on('slidechanged',
+            (event) => {
+                console.log(event);
+
+                // noinspection JSUnresolvedReference
+                /** @type {HTMLElement} */
+                let slide = event.currentSlide;
+                if (slide.parentElement === null) {
+                    return;
+                }
+                const round = Number(slide.parentElement.dataset.roundNumber);
+                const question = slide.dataset.questionNumber;
+                const roundTitle = slide.parentElement.dataset.roundTitle || '';
+                topBarRound.hidden = round === undefined || round === 0 || isNaN(round);
+                topBarTitle.hidden = topBarRound.hidden;
+                if (question === undefined) {
+                    topBarRound.innerHTML = `Round ${round}`;
+                } else {
+                    topBarRound.innerHTML = `Round ${round}, Question ${question}`;
+                }
+                topBarTitle.innerHTML = roundTitle;
+            });
     });
 </script>
 

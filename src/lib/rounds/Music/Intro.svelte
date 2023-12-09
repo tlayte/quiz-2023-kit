@@ -1,6 +1,4 @@
 <script>
-    import Potter from "$lib/rounds/Music/assets/harry_potter.mp3";
-
     /** @type {number} */
     export let questionNumber;
     /** @type {string} */

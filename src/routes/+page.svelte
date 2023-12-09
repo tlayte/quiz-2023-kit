@@ -9,13 +9,13 @@
 <Slides>
     <section data-auto-animate data-auto-animate-restart data-timing={60*5}>
         <div style="position:relative">
-            <img data-id="logo" src={Title} style="translate:0 -100vh" alt=""/>
+            <img data-id="logo" src={Title} style="translate:0 -100vh" width="749" height="516" alt=""/>
         </div>
         <p>Are you ready?</p>
     </section>
     <section data-auto-animate data-timing="10">
         <div style="position:relative">
-            <img data-id="logo" src={Title} style="translate:0 0" alt=""/>
+            <img data-id="logo" src={Title} style="translate:0 0" width="749" height="516" alt=""/>
         </div>
         <p>Let's GO!</p>
     </section>
