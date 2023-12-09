@@ -5,7 +5,7 @@ pytube https://www.youtube.com/watch?v=TZE9gVF1QbA -a
 ffmpeg -i '.\Opening Credits  Game of Thrones  Season 8 (HBO).mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" GOT.mp3
 
 pytube https://www.youtube.com/watch?v=wtHra9tFISY -a
-ffmpeg -i '.\Hedwigs Theme.mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5" harry_potter.mp3
+ffmpeg -i '.\Hedwigs Theme.mp4' -t 00:00:20 -af "afade=t=out:st=15:d=5,volume=8" harry_potter.mp3
 
 pytube https://www.youtube.com/watch?v=75V4ClJZME4 -a
 ffmpeg -i '.\Doctor Who (1963) -  Original Theme music video.mp4' -ss 00:00:01 -t 00:00:21 -af "afade=t=out:st=15:d=5" dr_who.mp3
