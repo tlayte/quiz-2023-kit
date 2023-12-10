@@ -22,8 +22,6 @@
 
         deck.on('slidechanged',
             (event) => {
-                console.log(event);
-
                 // noinspection JSUnresolvedReference
                 /** @type {HTMLElement} */
                 let slide = event.currentSlide;
