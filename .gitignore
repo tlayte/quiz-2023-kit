@@ -9,4 +9,7 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 *.mp4
-.yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
