@@ -1,0 +1,46 @@
+<script>
+    export let ArtistData;
+    export let Letter;
+</script>
+
+<div class="artist">
+    <img class="art-piece" data-src={ArtistData.src} alt="{Letter}"/>
+    <p class="label">{Letter}</p>
+    <aside class="notes">
+        {Letter}) {ArtistData.name}<br/>
+    </aside>
+</div>
+
+<style>
+    .artist {
+        height: 50%;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .label {
+        font-size: 2.8rem;
+        margin: -1.5rem 0 0;
+        background: var(--artyfarty-colour);
+        border-radius: 50%;
+        border: 1px solid black;
+        padding: 0.2rem;
+        line-height: 100%;
+        height: 2.5rem;
+        aspect-ratio: 1;
+        z-index: 10;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px black;
+        font-family: 'Lapsus Pro', sans-serif;
+    }
+
+    .art-piece {
+
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        margin: 0;
+    }
+</style>

@@ -1,26 +1,47 @@
 <script>
-    import ArtGroup from "./ArtGroup.svelte";
-    import Snoppy from "./assets/artist-snoppy.jpg";
-    import Hobbit from "./assets/artist-hobbit.jpg";
-    import BB from "./assets/artist-bb.jpg";
-    import Dawn from "./assets/artist-dawn.jpg";
     /** @type {number} */
     export let questionCount;
+
+    import ArtGroup from "./ArtGroup.svelte";
+    import {artists} from "./assets";
+
 </script>
 
-<ArtGroup questionNumber={++questionCount}>
-    <img class="artist" src={Snoppy} slot="a" />
-    <img class="artist" src={Hobbit} slot="b" />
-    <img class="artist" src={BB} slot="c" />
-    <img class="artist" src={Dawn} slot="d" />
-</ArtGroup>
+<section>
+    <h2>Name the artist</h2>
+    <aside class="notes">
+        We are going to show you art from some of our members. Can you name the artist?
+    </aside>
+</section>
 
-<style>
-    .artist {
+<ArtGroup questionNumber={++questionCount}
+          Artists={[
+            artists.Snoppy,
+            artists.BB,
+            artists.Dawn,
+            artists.Abgarok,
+            ]}/>
 
-        width:100%;
-        aspect-ratio: 1;
-        object-fit: cover;
-        margin:0;
-    }
-</style>
+<ArtGroup questionNumber={++questionCount}
+          Artists={[
+            artists.Arillae,
+            artists.Soo,
+            artists.Thornius,
+            artists.Traceyanne,
+            ]}/>
+
+<ArtGroup questionNumber={++questionCount}
+          Artists={[
+            artists.Claire,
+            artists.Flyt,
+            artists.Gaby,
+            artists.Kerryanne,
+            ]}/>
+
+<ArtGroup questionNumber={++questionCount}
+            Artists={[
+                artists.Paula,
+                artists.Pepper,
+                artists.Tori,
+                artists.Zoe,
+                ]}/>

@@ -6,6 +6,10 @@
     src: url("/LapsusPro-Bold.otf") format("opentype");
 }
 
+body {
+    --artyfarty-colour: #85c9c3;
+}
+
 section .outlined {
     --r-heading-font: Lapsus, sans-serif;
     position: relative;
