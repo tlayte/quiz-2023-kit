@@ -23,6 +23,6 @@
         gap: 0.5rem;
         flex-wrap: wrap;
         width: 90%;
-        height: 60vh;
+        height: 63vh;
     }
 </style>

@@ -21,14 +21,14 @@
     }
 
     .label {
-        font-size: 2.8rem;
+        font-size: 2rem;
         margin: -1.5rem 0 0;
         background: var(--artyfarty-colour);
         border-radius: 50%;
         border: 1px solid black;
         padding: 0.2rem;
         line-height: 100%;
-        height: 2.5rem;
+        height: 2.5em;
         aspect-ratio: 1;
         z-index: 10;
         text-transform: uppercase;
