@@ -34,10 +34,10 @@
         text-transform: uppercase;
         -webkit-text-stroke: 2px black;
         font-family: 'Lapsus Pro', sans-serif;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
     }
 
     .art-piece {
-
         width: 100%;
         aspect-ratio: 1;
         object-fit: cover;

@@ -1,13 +1,17 @@
-Artist	Year of Birth
+
 Leonardo da Vinci	1452
 Michelangelo	1475
-Rubens (Peter Paul Rubens)	1577
-Whistler (James McNeill Whistler)	1834
-Monet (Claude Monet)	1840
-Renoir (Pierre-Auguste Renoir)	1841
-Van Gogh (Vincent van Gogh)	1853
-Toulouse-Lautrec (Henri de Toulouse-Lautrec)	1864
-Picasso (Pablo Picasso)	1881
-Matchstick Man Artist (L.S. Lowry)	1887
-Warhol (Andy Warhol)	1928
-Hockney (David Hockney)	1937
+Peter Paul Rubens	1577
+James McNeill Whistler	1834
+Claude Monet	1840
+Pierre-Auguste Renoir	1841
+Vincent van Gogh	1853
+Henri de Toulouse-Lautrec	1864
+Pablo Picasso	1881
+L. S. Lowry	1887
+Andy Warhol	1928
+David Hockney	1937
+
+
+
+
