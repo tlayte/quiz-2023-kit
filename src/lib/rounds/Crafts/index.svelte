@@ -22,7 +22,7 @@
 </section>
     <section data-question-number={++questionCount}>
         <h4>Who made the most stitchery squares?</h4>
-        <ol>
+        <ol class="circle-list">
             <li>Annie</li>
             <li>Tori</li>
             <li>Sylvia</li>
@@ -38,7 +38,7 @@
         <video src={Sleeves} controls/>
     </section>
     <section data-question-number={++questionCount}>
-        <ol class="tool-list">
+        <ol class="circle-list">
             <li>Shuttle</li>
             <li>Spurtle</li>
             <li>Dibber</li>
@@ -80,17 +80,6 @@
 </Round>
 
 <style>
-    ol {
-        list-style-type: lower-alpha;
-    }
-    .tool-list {
-        columns: 2;
-        font-size: 1.5rem;
-    }
-    .tool-list > li {
-        margin-right: 3rem;
-    }
-
     video {
         width: 50%;
     }

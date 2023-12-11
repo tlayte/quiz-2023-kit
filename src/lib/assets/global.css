@@ -54,3 +54,46 @@ section .outlined:after {
 .top-bar>h5 {
     font-size: 0.75em;
 }
+
+.reveal ol.alpha {
+    list-style-type: upper-alpha;
+    margin-inline: auto;
+}
+
+.reveal ol.circle-list {
+    list-style-type: upper-alpha;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    height: 45vh;
+    gap: 0 4rem;
+    padding: 0 0 0 2.5rem;
+}
+.reveal ol.circle-list > li {
+    position: relative;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.reveal ol.circle-list > li::marker {
+    font-family: 'Lapsus Pro', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 0.15rem #000,0 0 0.2rem #000,0 0 0.6rem #000;
+}
+
+.reveal ol.circle-list > li::before {
+    box-sizing: border-box;
+    content: ' ';
+    display: block;
+    height: 90%;
+    border-radius: 50% 5% 5% 50%;
+    background: var(--artyfarty-colour);
+    aspect-ratio: 1;
+    position: absolute;
+    z-index: -10;
+    right: 100%;
+    margin-right: 0.5rem;
+    top: 10%;
+}
