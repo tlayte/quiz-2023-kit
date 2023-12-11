@@ -18,6 +18,7 @@
     <Flag country="🇧🇳" number={++flagCount}/>
     <Flag country="🇳🇱" number={++flagCount}/>
     <Flag country="🇵🇱" number={++flagCount}/>
+    <Flag country="🇿🇦 " number={++flagCount}/>
 </div>
 
 <style>

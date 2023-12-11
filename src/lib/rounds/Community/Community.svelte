@@ -41,8 +41,8 @@
             <li>Wonderful tools for lifting cars</li>
             <li>A cartoon dog</li>
             <li>Extinct hobbyist</li>
-            <li>Gastrointestinal disorder</li>
-            <li>Rings as Christmas</li>
+            <li>Very short Gastrointestinal disorder</li>
+            <li>Rings at Christmas</li>
             <li>Seasonings greetings</li>
             <li>Another on-screen artist had this surname</li>
             <li>Comfortable and easy to wear</li>

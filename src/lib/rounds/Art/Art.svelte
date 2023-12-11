@@ -1,5 +1,6 @@
 <script>
     import Round from '$lib/Round.svelte';
+    import Artists from "./Artists.svelte";
 
     /** @type {number} */
     export let roundNumber;
@@ -7,5 +8,5 @@
 </script>
 
 <Round roundNumber={roundNumber} title="Art">
-
+    <Artists bind:questionCount />
 </Round>
