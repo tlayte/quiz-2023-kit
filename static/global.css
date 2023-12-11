@@ -47,7 +47,7 @@ section .outlined:after {
     padding: 0.2rem;
     color: white;
     margin:0;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.06rem;
 }
 
 .top-bar>h5 {
