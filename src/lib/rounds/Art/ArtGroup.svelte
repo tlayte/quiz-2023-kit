@@ -24,5 +24,6 @@
         flex-wrap: wrap;
         width: 90%;
         height: 63vh;
+        margin-inline: auto;
     }
 </style>
