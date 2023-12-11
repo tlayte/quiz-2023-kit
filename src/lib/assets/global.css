@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 @font-face {
     font-family: Lapsus;
-    /*noinspection CssUnknownTarget*/
-    src: url("/LapsusPro-Bold.otf") format("opentype");
+    src: url("LapsusPro-Bold.otf") format("opentype");
 }
 
 body {
+    --r-heading-letter-spacing: 0;
     --artyfarty-colour: #85c9c3;
 }
 
@@ -26,7 +27,7 @@ section .outlined:before {
 
 section .outlined:after {
     content: attr(data-text);
-    background: linear-gradient(0deg, #35726d, #85c9c3);
+    background: linear-gradient(0deg, #39c2b7, #c3f1ed);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

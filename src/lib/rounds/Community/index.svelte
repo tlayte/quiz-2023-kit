@@ -1,5 +1,8 @@
+<script context="module">
+    export const Name="Community";
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
     import FlagGrid from "./FlagGrid.svelte";
 
     /** @type {number} */
@@ -7,7 +10,7 @@
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Community">
+<Round roundNumber={roundNumber} title={Name}>
     <section data-timing="8">
         <h2>Questions inspired by our community</h2>
         <aside class="notes">

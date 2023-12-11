@@ -1,5 +1,8 @@
+<script context="module">
+    export const Name = 'Music';
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
     import DrWho from './assets/dr_who.mp3';
     import Potter from './assets/harry_potter.mp3';
     import GameOfThrones from './assets/GOT.mp3';
@@ -19,7 +22,7 @@
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Name that theme">
+<Round roundNumber={roundNumber} title={Name}>
     <section data-timing="10">
         <h2>Name that theme tune/intro</h2>
         <aside class="notes">

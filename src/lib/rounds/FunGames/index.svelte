@@ -1,12 +1,15 @@
+<script context="module">
+    export const Name="Fun and Games";
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
 
     /** @type {number} */
     export let roundNumber;
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Fun and Games">
+<Round roundNumber={roundNumber} title={Name}>
     <section>
         <h2>Name that game character!</h2>
     </section>

@@ -1,12 +1,16 @@
+<script context="module">
+    export const Name="Photography";
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
 
     /** @type {number} */
     export let roundNumber;
+    export const Test = "Hello";
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Photography">
+<Round roundNumber={roundNumber} title={Name}>
     <section data-timing="10">
         <h2>Famous Photos</h2>
         <aside class="notes">

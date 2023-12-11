@@ -1,5 +1,8 @@
+<script context="module">
+    export const Name = 'Books';
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
     import FirstLines from "./FirstLines.svelte";
     import Covers from './Covers.svelte';
 
@@ -9,7 +12,7 @@
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Books">
+<Round roundNumber={roundNumber} title={Name}>
     <section>
         <h4>Name the book from the first line.<br/>An extra point for naming the author too.</h4>
     </section>

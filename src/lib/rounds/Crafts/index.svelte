@@ -1,5 +1,8 @@
+<script context="module">
+    export const Name="Crafts";
+</script>
 <script>
-    import Round from '$lib/Round.svelte';
+    import Round from '$lib/util/Round.svelte';
     import Sleeves from './assets/sleeves.webm';
 
     /** @type {number} */
@@ -7,7 +10,7 @@
     let questionCount = 0;
 </script>
 
-<Round roundNumber={roundNumber} title="Crafts">
+<Round roundNumber={roundNumber} title={Name}>
 <section>
     <h2>Great Big Little Stitchery Round</h2>
 </section>

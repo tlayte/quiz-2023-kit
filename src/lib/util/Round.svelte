@@ -1,5 +1,5 @@
 <script>
-    import SectionHead from "$lib/SectionHead.svelte";
+    import SectionHead from "$lib/util/SectionHead.svelte";
 
     /***
      * @type {number}
