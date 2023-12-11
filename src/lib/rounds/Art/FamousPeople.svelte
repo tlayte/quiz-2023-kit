@@ -11,7 +11,7 @@
 
 <section data-question-number={++questionCount} data-auto-animate>
     <h4>In order of year of birth</h4>
-    <ol class="people">
+    <ol class="circle-list small">
         <li>Michelangelo</li>
         <li>Pablo Picasso</li>
         <li>Leonardo da Vinci</li>
@@ -28,7 +28,7 @@
 </section>
 <section data-question-number={++questionCount} data-auto-animate>
     <h4>In order of year of birth</h4>
-    <ol class="people">
+    <ol class="circle-list small">
         <li>Claude Monet</li>
         <li>David Hockney</li>
         <li>Henri de Toulouse-Lautrec</li>
@@ -45,7 +45,7 @@
 </section>
 <section data-question-number={++questionCount} data-auto-animate>
     <h4>In order of year of birth</h4>
-    <ol class="people">
+    <ol class="circle-list small">
         <li>L. S. Lowry</li>
         <li>Peter Paul Rubens</li>
         <li>Vincent van Gogh</li>
@@ -60,18 +60,3 @@
         </table>
     </aside>
 </section>
-
-<style>
-    @counter-style circled-alpha {
-        system: fixed;
-        symbols: A B C D E F G H I J K L M N O P;
-        suffix: "   ";
-    }
-    .people {
-        list-style: circled-alpha;
-        font-size: 2rem;
-    }
-    .people li::marker {
-        font-family: 'Lapsus Pro', sans-serif;
-    }
-</style>

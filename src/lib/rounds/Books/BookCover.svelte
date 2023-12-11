@@ -7,8 +7,8 @@
 
 <section data-question-number={questionNumber}>
     <div class="container">
-        <img class="cover" src={image} width="460" height="276" alt="" />
-        <ol class="answers">
+        <img src={image} width="460" height="276" alt="" />
+        <ol class="circle-list smaller">
             <li><slot name="a"/></li>
             <li><slot name="b"/></li>
             <li><slot name="c"/></li>
@@ -19,15 +19,6 @@
 </section>
 
 <style>
-    .cover {
-        display: block;
-    }
-    .answers {
-        list-style-type: lower-alpha;
-        padding: 0;
-        font-size: 0.6em;
-    }
-
     .container {
         display: flex;
         flex-direction: column;

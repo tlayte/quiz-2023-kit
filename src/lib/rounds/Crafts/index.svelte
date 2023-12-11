@@ -38,7 +38,7 @@
         <video src={Sleeves} controls/>
     </section>
     <section data-question-number={++questionCount}>
-        <ol class="circle-list">
+        <ol class="circle-list columns">
             <li>Shuttle</li>
             <li>Spurtle</li>
             <li>Dibber</li>

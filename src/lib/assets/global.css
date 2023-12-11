@@ -8,7 +8,8 @@
 
 body {
     --r-heading-letter-spacing: 0;
-    --artyfarty-colour: #85c9c3;
+    --artyfarty-colour: #c3f1ed;
+    --artyfarty-colour-dark: #496562;
 }
 
 section .outlined {
@@ -67,33 +68,52 @@ section .outlined:after {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    height: 45vh;
-    gap: 0 4rem;
-    padding: 0 0 0 2.5rem;
+    gap: 0.2rem 4rem;
+    padding: 0 0 0 3.5rem;
 }
+
+.reveal ol.circle-list.columns {
+    height: 46.5vh;
+}
+
 .reveal ol.circle-list > li {
     position: relative;
     padding-left: 0.5rem;
+    padding-right: 1rem;
     margin-left: 0.5rem;
+    background: var(--artyfarty-colour-dark);
+    border-radius: 0 10rem 10rem 0;
 }
 
 .reveal ol.circle-list > li::marker {
     font-family: 'Lapsus Pro', sans-serif;
     color: #fff;
     text-shadow: 0 0 0.15rem #000,0 0 0.2rem #000,0 0 0.6rem #000;
+    line-height: 100%;
 }
 
 .reveal ol.circle-list > li::before {
     box-sizing: border-box;
     content: ' ';
     display: block;
-    height: 90%;
-    border-radius: 50% 5% 5% 50%;
+    height: 100%;
+    border-radius: 10rem 0 0 10rem;
     background: var(--artyfarty-colour);
-    aspect-ratio: 1;
+    aspect-ratio: 1.2;
     position: absolute;
     z-index: -10;
     right: 100%;
-    margin-right: 0.5rem;
-    top: 10%;
+    margin-right: -2px;
+}
+
+.reveal ol.circle-list.small {
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    height: auto;
+}
+
+.reveal ol.circle-list.smaller {
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    height: auto;
 }

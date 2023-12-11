@@ -40,7 +40,7 @@
     </section>
     <section data-question-number={questionCount} data-timing={8*22}> <!-- /* 20 seconds per clue */ -->
         <h4>Write the name of the person described below</h4>
-        <ol class="user-list">
+        <ol class="circle-list">
             <li>Wonderful tools for lifting cars</li>
             <li>A cartoon dog</li>
             <li>Extinct hobbyist</li>
@@ -56,10 +56,3 @@
     </section>
 
 </Round>
-
-<style>
-    .user-list {
-        list-style: lower-alpha;
-        font-size: 0.75em;
-    }
-</style>
