@@ -1,6 +1,6 @@
 <script>
     import Round from '$lib/Round.svelte';
-    import Sleeves from './assets/sleeves.mp4';
+    import Sleeves from './assets/sleeves.webm';
 
     /** @type {number} */
     export let roundNumber;
