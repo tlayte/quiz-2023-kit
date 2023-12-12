@@ -39,7 +39,7 @@ section .outlined:after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Lapsus Pro', sans-serif;
+    font-family: Lapsus, sans-serif;
     font-size: 2em;
     position: fixed;
     width: 100%;
@@ -86,7 +86,7 @@ section .outlined:after {
 }
 
 .reveal ol.circle-list > li::marker {
-    font-family: 'Lapsus Pro', sans-serif;
+    font-family: Lapsus, sans-serif;
     color: #fff;
     text-shadow: 0 0 0.15rem #000,0 0 0.2rem #000,0 0 0.6rem #000;
     line-height: 100%;

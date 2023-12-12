@@ -33,7 +33,7 @@
         z-index: 10;
         text-transform: uppercase;
         -webkit-text-stroke: 2px black;
-        font-family: 'Lapsus Pro', sans-serif;
+        font-family: Lapsus, sans-serif;
         box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
     }
 
