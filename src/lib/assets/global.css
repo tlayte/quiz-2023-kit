@@ -45,14 +45,15 @@ section .outlined:after {
     width: 100%;
     z-index: 100;
 }
-.top-bar>h4, .top-bar>h5 {
+
+.top-bar > h4, .top-bar > h5 {
     padding: 0.2rem;
     color: white;
-    margin:0;
+    margin: 0;
     letter-spacing: 0.06rem;
 }
 
-.top-bar>h5 {
+.top-bar > h5 {
     font-size: 0.75em;
 }
 
@@ -88,7 +89,7 @@ section .outlined:after {
 .reveal ol.circle-list > li::marker {
     font-family: Lapsus, sans-serif;
     color: #fff;
-    text-shadow: 0 0 0.15rem #000,0 0 0.2rem #000,0 0 0.6rem #000;
+    text-shadow: 0 0 0.15rem #000, 0 0 0.2rem #000, 0 0 0.6rem #000;
     line-height: 100%;
 }
 
