@@ -1,10 +1,12 @@
 <script>
     import 'reveal.js/dist/reveal.css';
     import 'reveal.js/dist/theme/night.css';
+    import 'reveal.js/plugin/highlight/monokai.css';
 
     import Reveal from 'reveal.js';
     import {onMount, tick} from 'svelte';
     import RevealNotes from "reveal.js/plugin/notes/notes";
+    import RevealHighlight from 'reveal.js/plugin/highlight/highlight.js';
 
     onMount(async () => {
         await tick();
@@ -17,7 +19,7 @@
             return;
         }
 
-        const deck = new Reveal({hash: true, slideNumber: true, plugins: [RevealNotes], defaultTiming: 20});
+        const deck = new Reveal({hash: true, slideNumber: true, plugins: [RevealNotes, RevealHighlight], defaultTiming: 20});
         await deck.initialize();
 
         deck.on('slidechanged',
