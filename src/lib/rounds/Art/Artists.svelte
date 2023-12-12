@@ -2,7 +2,7 @@
     /** @type {number} */
     export let questionCount;
 
-    import ArtGroup from "./ArtGroup.svelte";
+    import PictureGroup from "$lib/util/PictureGroup.svelte";
     import {artists} from "./assets";
 
 </script>
@@ -14,32 +14,32 @@
     </aside>
 </section>
 
-<ArtGroup questionNumber={++questionCount}
-          Artists={[
+<PictureGroup questionNumber={++questionCount}
+          Pictures={[
             artists.Snoppy,
             artists.BB,
             artists.Dawn,
             artists.Abgarok,
             ]}/>
 
-<ArtGroup questionNumber={++questionCount}
-          Artists={[
+<PictureGroup questionNumber={++questionCount}
+          Pictures={[
             artists.Arillae,
             artists.Soo,
             artists.Thornius,
             artists.Traceyanne,
             ]}/>
 
-<ArtGroup questionNumber={++questionCount}
-          Artists={[
+<PictureGroup questionNumber={++questionCount}
+          Pictures={[
             artists.Claire,
             artists.Flyt,
             artists.Gaby,
             artists.Kerryanne,
             ]}/>
 
-<ArtGroup questionNumber={++questionCount}
-            Artists={[
+<PictureGroup questionNumber={++questionCount}
+          Pictures={[
                 artists.Paula,
                 artists.Pepper,
                 artists.Tori,

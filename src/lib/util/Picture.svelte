@@ -1,13 +1,13 @@
 <script>
-    export let ArtistData;
+    export let PictureData;
     export let Letter;
 </script>
 
 <div class="artist">
-    <img class="art-piece" data-src={ArtistData.src} alt="{Letter}"/>
+    <img class="art-piece" data-src={PictureData.src} alt="{Letter}"/>
     <p class="label">{Letter}</p>
     <aside class="notes">
-        {Letter}) {ArtistData.name}<br/>
+        {Letter}) {PictureData.name}<br/>
     </aside>
 </div>
 
