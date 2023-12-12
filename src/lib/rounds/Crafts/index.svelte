@@ -3,7 +3,7 @@
 </script>
 <script>
     import Round from '$lib/util/Round.svelte';
-    import Sleeves from './assets/sleeves.webm';
+    import Tools from './assets/tools.webm';
 
     /** @type {number} */
     export let roundNumber;
@@ -35,7 +35,7 @@
     </section>
     <section>
         <h3>What's that tool for?</h3>
-        <video src={Sleeves} controls/>
+        <video src={Tools} width="640" controls/>
     </section>
     <section data-question-number={++questionCount}>
         <ol class="circle-list columns">
@@ -81,6 +81,6 @@
 
 <style>
     video {
-        width: 50%;
+        width: 640px;
     }
 </style>
