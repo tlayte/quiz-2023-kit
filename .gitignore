@@ -13,3 +13,4 @@ vite.config.ts.timestamp-*
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
+!src/lib/assets/bg*.mp4
