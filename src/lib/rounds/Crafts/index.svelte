@@ -4,6 +4,7 @@
 <script>
     import Round from '$lib/util/Round.svelte';
     import Tools from './assets/tools.webm';
+    import Answers from './Answers.svelte';
 
     /** @type {number} */
     export let roundNumber;
@@ -57,24 +58,7 @@
             <li>Tooth Chisel</li>
         </ol>
         <aside class="notes">
-            <table>
-                <tr><td>Shuttle</td><td>tatting, weaving</td></tr>
-                <tr><td>Spurtle</td><td>cooking</td></tr>
-                <tr><td>Dibber</td><td>gardening</td></tr>
-                <tr><td>Brayer</td><td>printing</td></tr>
-                <tr><td>Mandolin</td><td>cooking</td></tr>
-                <tr><td>Skiver</td><td>leatherworking</td></tr>
-                <tr><td>Mandrel or triblet</td><td>jewellery making</td></tr>
-                <tr><td>Punty</td><td>glassblower</td></tr>
-                <tr><td>Ham</td><td>tailor</td></tr>
-                <tr><td>Hardie hole</td><td>blacksmith</td></tr>
-                <tr><td>Clapper</td><td>tailor</td></tr>
-                <tr><td>Auger</td><td>gardener</td></tr>
-                <tr><td>Lopper</td><td>gardener</td></tr>
-                <tr><td>Fettling knife</td><td>potter</td></tr>
-                <tr><td>Glory hole</td><td>glassblower</td></tr>
-                <tr><td>Tooth Chisel</td><td>stonemason</td></tr>
-            </table>
+            <Answers/>
         </aside>
     </section>
 </Round>

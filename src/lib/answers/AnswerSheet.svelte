@@ -4,9 +4,7 @@
 </script>
 <section>
 <h5>Answers for round {round} ({name})</h5>
-    <ol>
         <slot/>
-    </ol>
 </section>
 
 <style>
