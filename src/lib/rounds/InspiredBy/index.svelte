@@ -33,14 +33,14 @@
     <section>
         <h2>Songs inspired by...</h2>
     </section>
-    <section data-question-number={getQuestion()}>
+    <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={Matchstalk} />
         <aside class="notes">
             Matchstalk Men and Matchstalk Cats and Dogs - Brian and Michael<br/>
             L S Lowry
         </aside>
     </section>
-    <section data-question-number={getQuestion()}>
+    <section data-question-number={getQuestion()} data-timing={15}>
         <audio data-autoplay controls src={SweetGene} />
         <aside class="notes">
             Sweet Gene Vincent - Ian Dury<br/>
@@ -61,7 +61,7 @@
             Leonardo da Vinci
         </aside>
     </section>
-    <section data-question-number={getQuestion()}>
+    <section data-question-number={getQuestion()} data-timing={30}>
         <audio data-autoplay controls src={AndyWarhol} />
         <aside class="notes">
             Andy Warhol - David Bowie<br/>
@@ -71,6 +71,6 @@
     <section>
         <h2>Food inspired by...</h2>
     </section>
-    <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} />
+    <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} TimePerPicture={15}/>
     
 </Round>

@@ -38,7 +38,7 @@
     <Intro track={GameOfThrones} questionNumber={++questionCount}>
         Game of Thrones
     </Intro>
-    <Intro track={KnightRider} questionNumber={++questionCount}>
+    <Intro track={KnightRider} questionNumber={++questionCount} timing={30}>
         Knight Rider
     </Intro>
     <Intro track={Airwolf} questionNumber={++questionCount}>
@@ -50,7 +50,7 @@
     <Intro track={Hawaii50} questionNumber={++questionCount}>
         Hawaii 5-0
     </Intro>
-    <Intro track={Mash} questionNumber={++questionCount}>
+    <Intro track={Mash} questionNumber={++questionCount} timing={30}>
         MASH
     </Intro>
     <Intro track={RickAndMorty} questionNumber={++questionCount}>
