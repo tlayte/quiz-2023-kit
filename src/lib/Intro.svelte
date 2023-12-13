@@ -1,5 +1,5 @@
 <script>
-    import Title from '$lib/assets/QuizTitle.png?w=749&format=webp';
+    import Title from '$lib/assets/QuizTitle.png';
 </script>
 
 <section data-auto-animate data-auto-animate-restart data-timing={60*5}>
