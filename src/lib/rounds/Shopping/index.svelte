@@ -70,10 +70,10 @@
     <section data-question-number={++questionCount}>
         <div class="sidebyside">
             <ul>
-                <li>Dollar</li>
-                <li>Rand</li>
-                <li>Zloty</li>
                 <li>Peso</li>
+                <li>Dollar</li>
+                <li>Zloty</li>
+                <li>Rand</li>
             </ul>
             <ul>
                 <li>Belize</li>
