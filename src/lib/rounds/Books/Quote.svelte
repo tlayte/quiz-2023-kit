@@ -50,9 +50,9 @@
 
     blockquote.EN:after {
         content: "\f10e";
-        bottom: -20px;
+        bottom: -15px;
         left: 100%;
-        margin-left: -20px;
+        margin-left: -28px;
     }
 
 </style>
