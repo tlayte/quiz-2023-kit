@@ -5,9 +5,10 @@
     export let questionNumber;
     export let Pictures;
     export let Subtitle = "";
+    export let TimePerPicture = 10;
 </script>
 
-<section data-question-number={questionNumber}>
+<section data-question-number={questionNumber} data-timing={4*TimePerPicture}>
     {#if Subtitle !== ""}
         <h4 class="subtitle">{Subtitle}</h4>
     {/if}
