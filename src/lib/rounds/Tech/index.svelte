@@ -10,6 +10,8 @@
     import Taurus from './assets/taurus.png';
     import PictureGroup from "$lib/util/PictureGroup.svelte";
     import Spayce from "./assets/spayce.webm";
+    import Stars from "./assets/stars.jpg";
+    import Bonus from "./assets/bonus.png";
 
     const constellations = [
         {name: 'Canis Major', src: CanisMajor},
@@ -21,6 +23,8 @@
     /** @type {number} */
     export let roundNumber;
     let questionCount = 0;
+
+    const getQuestion = () => ++questionCount;
 </script>
 
 <Round roundNumber={roundNumber} title={Name}>
@@ -111,11 +115,17 @@ int main() {
         </aside>
 
     </section>
-    <section>
+    <section data-background={Stars}>
         <h2>SPACE!</h2>
-        <video src={Spayce} controls/>
+        <video src={Spayce} data-autoplay/>
     </section>
-    <PictureGroup Pictures={constellations} questionNumber={++questionCount}/>
+    <PictureGroup Pictures={constellations} questionNumber={5}/>
+    <section data-question-number={6}>
+        <img class="solo" src={Bonus} alt=""/>
+        <aside class="notes">
+            BONUS QUESTION - what is the name for a recognisable pattern of stars which hasn’t been designated as a constellation, such as this one, the Summer Triangle? - Asterism (eg the three stars of Orion’s belt, or the big dipper which is part of Ursa major, or this one, the Summer Triangle where each of the three stars is in a different constellation - Cygnus the Swan, Lyra the Harp and Aquila the Eagle
+        </aside>
+    </section>
 </Round>
 
 <style>
@@ -125,5 +135,11 @@ int main() {
 
     .short-columns {
         height: 15rem;
+    }
+
+    .solo {
+        width: 100%;
+        height: 60vh;
+        object-fit: contain;
     }
 </style>
