@@ -50,23 +50,4 @@
     .artgrid > :global(div:nth-child(4)>img) {
         border-radius: 0 0 var(--corner-radius) 0;
     }
-
-
-    .subtitle {
-        position: relative;
-        font-size: 1.75rem;
-        /*line-height: 1.75rem;*/
-        margin-bottom: -3rem;
-        transform: translateY(-1rem);
-        z-index: 200;
-        background: var(--artyfarty-colour);
-        width: fit-content;
-        margin-inline: auto;
-        font-family: Lapsus, sans-serif;
-        padding-inline: 1rem;
-        border-radius: 1.5rem;
-        text-shadow: 0 0 0.15rem black, 0 0 0.25rem black, 0 0 0.5rem rgba(0, 0, 0, 0.5);
-        /*-webkit-text-stroke: 1.5px black;*/
-        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-    }
 </style>

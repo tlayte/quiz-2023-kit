@@ -51,31 +51,14 @@
 </Round>
 
 <style>
-    .subtitle {
-        position: relative;
-        font-size: 1.75rem;
-        /*line-height: 1.75rem;*/
-        margin-bottom: -2rem;
-        margin-top: 3rem;
 
-        transform: translateY(-1rem);
-        z-index: 200;
-        background: var(--artyfarty-colour);
-        width: fit-content;
-        margin-inline: auto;
-        font-family: Lapsus, sans-serif;
-        padding-inline: 1rem;
-        border-radius: 1.5rem;
-        text-shadow: 0 0 0.15rem black, 0 0 0.25rem black, 0 0 0.5rem rgba(0, 0, 0, 0.5);
-        /*-webkit-text-stroke: 1.5px black;*/
-        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-    }
     .oddList {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
         list-style: none;
         padding: 0;
+        margin: var(--r-block-margin);
     }
 
     .oddList > div {
