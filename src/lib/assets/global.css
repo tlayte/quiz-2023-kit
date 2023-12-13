@@ -74,7 +74,7 @@ section .outlined:after {
 }
 
 .reveal ol.circle-list.columns {
-    height: 46.5vh;
+    height: 29rem;
 }
 
 .reveal ol.circle-list > li {
