@@ -4,6 +4,20 @@
 <script>
     import Round from '$lib/util/Round.svelte';
 
+    import CanisMajor from './assets/canis-major.png';
+    import Leo from './assets/leo.png';
+    import Orion from './assets/orion.png';
+    import Taurus from './assets/taurus.png';
+    import PictureGroup from "$lib/util/PictureGroup.svelte";
+    import Spayce from "./assets/spayce.webm";
+
+    const constellations = [
+        {name: 'Canis Major', src: CanisMajor},
+        {name: 'Leo', src: Leo},
+        {name: 'Orion', src: Orion},
+        {name: 'Taurus', src: Taurus},
+    ];
+
     /** @type {number} */
     export let roundNumber;
     let questionCount = 0;
@@ -98,14 +112,10 @@ int main() {
 
     </section>
     <section>
-        <h2>Name constellation</h2>
+        <h2>SPACE!</h2>
+        <video src={Spayce} controls/>
     </section>
-    <section data-question-number={++questionCount}>
-        big dipper
-    </section>
-    <section data-question-number={++questionCount}>
-        etc
-    </section>
+    <PictureGroup Pictures={constellations} questionNumber={++questionCount}/>
 </Round>
 
 <style>

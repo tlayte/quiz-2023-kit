@@ -1,0 +1,2 @@
+pytube https://www.youtube.com/watch?v=g1Sq1Nr58hM
+ffmpeg -i '.\Tim Curry is escaping to the one place that hasnt been corrupted by capitalism.mp4' -vf "crop=720:720,scale=300:300" -crf 20 -b:v 0 -row-mt 1 spayce.webm
