@@ -97,7 +97,15 @@ int main() {
         </aside>
 
     </section>
-
+    <section>
+        <h2>Name constellation</h2>
+    </section>
+    <section data-question-number={++questionCount}>
+        big dipper
+    </section>
+    <section data-question-number={++questionCount}>
+        etc
+    </section>
 </Round>
 
 <style>

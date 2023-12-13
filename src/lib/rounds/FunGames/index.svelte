@@ -35,15 +35,6 @@
         <h2>Odd one out</h2>
     </section>
     <section>
-        <h2>Name constellation</h2>
-    </section>
-    <section data-question-number={++questionCount}>
-        big dipper
-    </section>
-    <section data-question-number={++questionCount}>
-        etc
-    </section>
-    <section>
         <h2>name that retro console</h2>
     </section>
     <section data-question-number={++questionCount}>
