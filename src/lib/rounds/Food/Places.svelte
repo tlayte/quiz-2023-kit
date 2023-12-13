@@ -125,6 +125,9 @@
     const getQuestion = () => ++questionCount;
 
 </script>
+<section>
+    <h2>Foods from around the world</h2>
+</section>
 
 {#each groups as group}
     <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name}/>

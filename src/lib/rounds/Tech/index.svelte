@@ -10,12 +10,15 @@
 </script>
 
 <Round roundNumber={roundNumber} title={Name}>
-<section data-question-number={++questionCount}>
-    What would be the output of line 9 in the following extremely simple c code?
-    <pre><code data-trim data-line-numbers="8"><script type="text/template">
+    <section>
+        <h2>Code Monkey</h2>
+    </section>
+    <section data-question-number={++questionCount}>
+        What would be the output of line 9 in the following extremely simple c code?
+        <pre><code data-trim data-line-numbers="8"><script type="text/template">
 #include <stdio.h>
 
-int main () {
+int main() {
     int i;
     for (i = 0; i <= 10; ++i) {
         printf("%d\n", i);
@@ -26,7 +29,7 @@ int main () {
 </script></code>
 
     </pre>
-</section>
+    </section>
     <section>
         <h2>Fun with maths</h2>
     </section>

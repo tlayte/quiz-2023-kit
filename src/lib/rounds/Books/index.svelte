@@ -14,7 +14,11 @@
 
 <Round roundNumber={roundNumber} title={Name}>
     <section>
-        <h4>Name the book from the first line.<br/>An extra point for naming the author too.</h4>
+        <h2>Name the book from the first line.</h2>
+        <aside class="notes">
+            Extra points for naming the author too.
+        </aside>
+
     </section>
     <FirstLines bind:questionCount/>
 
