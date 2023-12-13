@@ -1,17 +1,17 @@
 import * as r from '$lib/rounds';
 const rounds = [
+    r.Art,
+    r.Community,
+    r.Food,
+    r.Crafts,
     r.Photography,
     r.Tech,
-    r.Community,
-    r.Books,
-    r.FunGames,
     r.Music,
-    r.Art,
-    r.Food,
+    r.FunGames,
+    r.Books,
     r.AI,
     r.Shopping,
-    r.Scrawlr,
-    r.Crafts,
+    r.Inspired,
 ];
 
 export default rounds;

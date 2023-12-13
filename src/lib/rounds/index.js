@@ -6,7 +6,7 @@ export {default as Music} from './Music';
 export {default as FunGames} from './FunGames';
 export {default as Shopping} from './Shopping';
 export {default as Food} from './Food';
-export {default as Scrawlr} from './Scrawlr';
+export {default as Inspired} from './InspiredBy';
 export {default as Crafts} from './Crafts';
 export {default as Art} from './Art';
 export {default as AI} from './AI';
