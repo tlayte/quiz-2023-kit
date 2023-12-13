@@ -5,42 +5,7 @@
     import Round from '$lib/util/Round.svelte';
     import PictureGroup from "$lib/util/PictureGroup.svelte";
 
-    import DoomGuy from './assets/doomguy.avif?w=500&format=avif';
-    import Monopoly from './assets/monopoly.jpg?w=500&format=avif';
-    import Mario from './assets/super-mario.webp?w=500&format=avif';
-    import Wally from './assets/wally.webp?w=500&format=avif';
-
-    const group_1 = [
-        {name: "Doomguy, Doom Marine, Doom Slayer | Doom", src: DoomGuy},
-        {name: "Milburn \"Rich Uncle\" Pennybags | Monopoly", src: Monopoly},
-        {name: "Mario", src: Mario},
-        {name: "Wally, Waldo", src: Wally},
-    ];
-
-    import Mustard from './assets/mustard.png?w=500&format=avif';
-    import Samus from './assets/samus.png?w=500&format=avif';
-    import Sonic from './assets/sonic.avif?w=500&format=avif';
-    import CavitySam from './assets/operation.png?w=500&format=avif';
-
-    const group_2 = [
-        {name: "Colonel Mustard | Cluedo, Clue", src: Mustard},
-        {name: "Samus Aran | Metroid", src: Samus},
-        {name: "Sonic", src: Sonic},
-        {name: "Cavity Sam | Operation", src: CavitySam},
-    ];
-
-
-    import NES from './assets/nes.png?w=500&format=avif';
-    import C64 from './assets/c64.png?w=500&format=avif';
-    import Amiga500 from './assets/amiga500.png?w=500&format=avif';
-    import Megadrive from './assets/megadrive.png?w=500&format=avif';
-
-    const group_3 = [
-        {name: "NES", src: NES},
-        {name: "C64", src: C64},
-        {name: "Amiga 500", src: Amiga500},
-        {name: "Megadrive/Genesis", src: Megadrive},
-    ];
+    import {characterGroup1, characterGroup2, consoleGroup, oddOneOutGroup} from "./assets";
 
     /** @type {number} */
     export let roundNumber;
@@ -56,13 +21,101 @@
             Extra points for the game they are from.
         </aside>
     </section>
-    <PictureGroup questionNumber={getQuestion()} Pictures={group_1} />
-    <PictureGroup questionNumber={getQuestion()} Pictures={group_2} />
+    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup1} />
+    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup2} />
     <section>
         <h2>Odd one out</h2>
+    </section>
+    <section data-question-number={getQuestion()}>
+        <ol class="circle-list">
+            <li>Bowler Hat</li>
+            <li>Snail Trail</li>
+            <li>Cold Porridge</li>
+            <li>Deep Fossil</li>
+            <li>Surrendered Skies</li>
+            <li>Letters Unread</li>
+        </ol>
+    </section>
+    <section data-question-number={getQuestion()}>
+        <h4 class="subtitle">Which one of these is not like the others?</h4>
+        <div class="oddList">
+            <div><img src={oddOneOutGroup[0]} alt="" /><p class="label">A</p></div>
+            <div><img src={oddOneOutGroup[1]} alt="" /><p class="label">B</p></div>
+            <div><img src={oddOneOutGroup[2]} alt="" /><p class="label">C</p></div>
+        </div>
     </section>
     <section>
         <h2>name that retro console</h2>
     </section>
-    <PictureGroup questionNumber={getQuestion()} Pictures={group_3} />
+    <PictureGroup questionNumber={getQuestion()} Pictures={consoleGroup} />
 </Round>
+
+<style>
+    .subtitle {
+        position: relative;
+        font-size: 1.75rem;
+        /*line-height: 1.75rem;*/
+        margin-bottom: -2rem;
+        margin-top: 3rem;
+
+        transform: translateY(-1rem);
+        z-index: 200;
+        background: var(--artyfarty-colour);
+        width: fit-content;
+        margin-inline: auto;
+        font-family: Lapsus, sans-serif;
+        padding-inline: 1rem;
+        border-radius: 1.5rem;
+        text-shadow: 0 0 0.15rem black, 0 0 0.25rem black, 0 0 0.5rem rgba(0, 0, 0, 0.5);
+        /*-webkit-text-stroke: 1.5px black;*/
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    }
+    .oddList {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+
+    .oddList > div {
+        flex: 1 1 30%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .oddList>div>img {
+        width: 100%;
+        object-fit: cover;
+        height: 60vh;
+        margin: 0;
+    }
+
+    .oddList>div:nth-child(1)>img {
+        border-radius: 2rem 0 0 2rem;
+    }
+
+    .oddList>div:nth-child(3)>img {
+        border-radius: 0 2rem 2rem 0;
+    }
+
+    .oddList .label {
+        font-size: 2.5rem;
+        margin: -1.5rem 0 0;
+        background: var(--artyfarty-colour);
+        border-radius: 2rem;
+        border: 1px solid black;
+        padding: 0.2rem;
+        line-height: 100%;
+        height: 1em;
+        aspect-ratio: 1;
+        z-index: 10;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px black;
+        font-family: Lapsus, sans-serif;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    }
+</style>
