@@ -1,4 +1,5 @@
-<ol class="circle-list smaller numeric long-columns">
+<div class="answer-grid">
+<ol class="circle-list circle-grid smallest numeric rows-9 columns-2 span-12">
     <li>The Hobbit &mdash; J R R Tolkein</li>
     <li>Harry Potter and the Philospher's Stone &mdash; J K Rowling</li>
     <li>Wuthering Heights &mdash; Emily Brontë</li>
@@ -18,15 +19,7 @@
     <li>On the Road</li>
     <li>Homage to Catalonia</li>
 </ol>
+</div>
 
 <style>
-    ol.circle-list.long-columns {
-        height: 15rem;
-        font-size: 1.1rem;
-        column-gap: 1.6rem;
-    }
-
-    ol.circle-list.long-columns li {
-        width: 50%;
-    }
 </style>

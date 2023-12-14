@@ -1,7 +1,7 @@
-<ol>
-    <li>311</li> <!--TODO: Fix the on the night -->
-    <li>
-        <ol class="letter-list columns-3">
+<ol class="answer-grid" style="width: 90%;">
+    <li class="span-12">311</li> <!--TODO: Fix the on the night -->
+    <li class="span-12">
+        <ol class="circle-list smaller circle-grid columns-3 rows-5">
             <li>UK</li>
             <li>Germany</li>
             <li>Sweden</li>
@@ -19,8 +19,8 @@
             <li>South Africa</li>
         </ol>
     </li>
-    <li>
-        <ol class="letter-list columns-2">
+    <li class="span-12">
+        <ol class="circle-list smaller circle-grid columns-2 rows-4">
             <li>Fabulousjaxx</li>
             <li>Snoppy</li>
             <li>Craftaartissaurus</li>
@@ -34,22 +34,5 @@
 </ol>
 
 <style>
-    .letter-list {
-        list-style-type: upper-alpha;
-        font-size: 1rem;
-        margin: 0;
-        padding: 1rem;
-    }
-
-    .letter-list.columns-3 {
-        columns: 3;
-    }
-
-    .letter-list.columns-2 {
-        columns: 2;
-    }
-
-    .letter-list li {
-        margin-right: 1rem;
-    }
+    ol { margin: 0 auto; padding: 0;}
 </style>
