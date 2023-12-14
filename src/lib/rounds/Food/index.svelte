@@ -18,12 +18,15 @@
     <section data-question-number={++questionCount}>
         <h4 class="subtitle">They call it <strong>WHAT?</strong></h4>
         <img src={CandyFloss} alt=""/>
+        <ol class="circle-list small">
+            <li>UK</li>
+            <li>USA</li>
+            <li>France</li>
+            <li>Spain/Germany</li>
+            <li>Australia</li>
+        </ol>
         <aside class="notes">
-            Uk - candy floss<br />
-            Usa - cotton candy<br />
-            France - papa’s beard<br />
-            spain/germany - sugar cotton<br />
-            Aus - fairy floss<br />
+            What is this sweet treat called in these countries?
         </aside>
     </section>
 </Round>
@@ -34,7 +37,7 @@
     }
     img {
         width: 100%;
-        height: 60vh;
+        height: 30vh;
         object-fit: contain;
     }
 </style>

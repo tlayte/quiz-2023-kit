@@ -72,5 +72,4 @@
         <h2>Food inspired by...</h2>
     </section>
     <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} TimePerPicture={15}/>
-    
 </Round>

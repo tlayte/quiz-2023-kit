@@ -32,27 +32,27 @@
         </ol>
     </li>
     <li class="span-4">
-        <ol class="circle-list grid smaller numeric">
-            <li style="padding-right: 0; padding-left: 0;">Leonardo da Vinci - 1452</li>
-            <li>Michelangelo - 1475</li>
-            <li>James Whistler - 1834</li>
-            <li>Pablo Picasso - 1881</li>
+        <ol class="circle-list grid smallest numeric">
+            <li>C - Leonardo da Vinci - 1452</li>
+            <li>A - Michelangelo - 1475</li>
+            <li>D - James Whistler - 1834</li>
+            <li>B - Pablo Picasso - 1881</li>
         </ol>
     </li>
     <li class="span-4">
-        <ol class="circle-list grid smaller numeric">
-            <li>Claude Monet - 1840</li>
-            <li style="padding-right: 0">Toulouse-Lautrec - 1864</li>
-            <li>Andy Warhol - 1928</li>
-            <li>David Hockney - 1937</li>
+        <ol class="circle-list grid smallest numeric">
+            <li>A - Claude Monet - 1840</li>
+            <li>C - Toulouse-Lautrec - 1864</li>
+            <li>D - Andy Warhol - 1928</li>
+            <li>B - David Hockney - 1937</li>
         </ol>
     </li>
     <li class="span-4">
-        <ol class="circle-list grid smaller numeric">
-            <li>Rubens - 1577</li>
-            <li>Renoir - 1841</li>
-            <li>Van Gogh - 1853</li>
-            <li>L. S. Lowry - 1887</li>
+        <ol class="circle-list grid smallest numeric">
+            <li>B - Rubens - 1577</li>
+            <li>D - Renoir - 1841</li>
+            <li>C - Van Gogh - 1853</li>
+            <li>A - L. S. Lowry - 1887</li>
         </ol>
     </li>
 </ol>

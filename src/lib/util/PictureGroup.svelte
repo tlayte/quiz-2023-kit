@@ -6,6 +6,7 @@
     export let Pictures;
     export let Subtitle = "";
     export let TimePerPicture = 10;
+    export let customNotes = false;
 </script>
 
 <section data-question-number={questionNumber} data-timing={4*TimePerPicture}>
@@ -13,11 +14,14 @@
         <h4 class="subtitle">{Subtitle}</h4>
     {/if}
     <div class="artgrid">
-        <Picture PictureData={Pictures[0]} Letter="A"/>
-        <Picture PictureData={Pictures[1]} Letter="B"/>
-        <Picture PictureData={Pictures[2]} Letter="C"/>
-        <Picture PictureData={Pictures[3]} Letter="D"/>
+        <Picture PictureData={Pictures[0]} Letter="A" addNote={!customNotes}/>
+        <Picture PictureData={Pictures[1]} Letter="B" addNote={!customNotes}/>
+        <Picture PictureData={Pictures[2]} Letter="C" addNote={!customNotes}/>
+        <Picture PictureData={Pictures[3]} Letter="D" addNote={!customNotes}/>
     </div>
+    <aside class="notes">
+        <slot name="notes"/>
+    </aside>
 </section>
 
 <style>

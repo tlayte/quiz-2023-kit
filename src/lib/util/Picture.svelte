@@ -1,14 +1,17 @@
 <script>
     export let PictureData;
     export let Letter;
+    export let addNote = true;
 </script>
 
 <div class="artist">
     <img class="art-piece" data-src={PictureData.src} alt="{Letter}"/>
     <p class="label">{Letter}</p>
+    {#if addNote}
     <aside class="notes">
         {Letter}) {PictureData.name}<br/>
     </aside>
+    {/if}
 </div>
 
 <style>

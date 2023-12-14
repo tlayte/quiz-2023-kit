@@ -127,6 +127,9 @@
 </script>
 <section>
     <h2>Foods from around the world</h2>
+    <aside class="notes">
+        We are going to show you pictures of foods from around the world. You need to decide which country each food is from (multiple choice). Bonus points if you can name the food!
+    </aside>
 </section>
 
 {#each groups as group}

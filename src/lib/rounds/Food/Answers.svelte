@@ -44,7 +44,7 @@
             <li>Frites & Mayo - Belgium</li>
             <li>Poutine - Canada</li>
             <li>Rosti - Switzerland</li>
-            <li>Steak Fries - USA</li>
+            <li>American Fries - USA</li>
         </ol>
     </li>
     <li class="span-4">
@@ -57,7 +57,7 @@
     </li>
     <li class="span-4">
         <ol class="circle-list circle-grid smallest columns-1">
-            <li>Pescado Frito</li>
+            <li>Pescado Frito - Colombia</li>
             <li>Whitebait Fritters - New Zealand</li>
             <li>Surströmming 🤮 - Sweden</li>
             <li>Jellied Eels - UK</li>
@@ -76,7 +76,7 @@
             <li>UK - Candyfloss</li>
             <li>USA - Cotton Candy</li>
             <li>France - Barbe à Papa / Daddy's Beard 😕</li>
-            <li>Spain/Germany - Sugar Cotton</li>
+            <li>Spain/Germany - Zuckerwatte/Sugar Cotton</li>
             <li>Australia - Fairy Floss</li>
         </ol>
     </li>

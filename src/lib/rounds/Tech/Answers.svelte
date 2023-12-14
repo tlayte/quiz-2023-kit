@@ -48,15 +48,10 @@
     <li class="span-12 grid">
         <p class="marker">6.</p>
         <ol class="circle-list circle-grid smaller columns-1 span-12">
-            <li>An Asterism</li>
+            <li>An Asterism - The Summer Triangle</li>
         </ol>
     </li>    
 </ol>
-<aside class="notes">
-    BONUS QUESTION - what is the name for a recognisable pattern of stars which hasn’t been designated as a constellation, such as this one, the Summer Triangle? - Asterism (eg the three stars of Orion’s belt, or the big dipper which is part of Ursa major, or this one, the Summer Triangle where each of the three stars is in a different constellation - Cygnus the Swan, Lyra the Harp and Aquila the Eagle
-</aside>
-
-
 <style>
     .answer-grid {
         row-gap: 1rem;

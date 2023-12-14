@@ -35,6 +35,10 @@
             <li>Surrendered Skies</li>
             <li>Letters Unread</li>
         </ol>
+        <aside class="notes">
+            All but one of these is a genuine shade of grey in the Dulux paint range. Which one is the odd one out?
+        </aside>
+
     </section>
     <section data-question-number={getQuestion()}>
         <h4 class="subtitle">Which one of these is not like the others?</h4>
@@ -43,11 +47,21 @@
             <div><img src={oddOneOutGroup[1]} alt="" /><p class="label">B</p></div>
             <div><img src={oddOneOutGroup[2]} alt="" /><p class="label">C</p></div>
         </div>
+        <aside class="notes">
+            There are similaries and differences between these three characters. Which one is the odd one out and why?<br/>
+            <small>Hint: They are not actually all the same person, despite the size.</small>
+        </aside>
+
     </section>
     <section>
         <h2>name that retro console</h2>
     </section>
-    <PictureGroup questionNumber={5} Pictures={consoleGroup} />
+    <PictureGroup questionNumber={5} Pictures={consoleGroup} customNotes={true}>
+        <svelte:fragment slot="notes">
+            <p>Can you name these retro consoles?</p>
+            <p>I have very helpfully gone through and removed any brand names</p>
+        </svelte:fragment>
+    </PictureGroup>
 </Round>
 
 <style>

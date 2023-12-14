@@ -13,11 +13,12 @@
 
 <Round roundNumber={roundNumber} title={Name}>
 <section>
-    <h2>Great Big Little Stitchery Round</h2>
+    <h2>Great Big Little Stitchery Swap</h2>
 </section>
 <section data-question-number={++questionCount}>
     <h4>How many squares are there in the online gallery for the first Great Big Little Stitchery Swap?</h4>
     <aside class="notes">
+        Within 20 is fine.
         542
     </aside>
 </section>
@@ -37,6 +38,9 @@
     <section>
         <h3>What's that tool for?</h3>
         <video src={Tools} width="640" controls/>
+        <aside class="notes">
+            As that clip demonstrates, sometimes tools can have amusing or confusing names.
+        </aside>
     </section>
     <section data-question-number={++questionCount}>
         <ol class="circle-list columns">
@@ -46,7 +50,7 @@
             <li>Brayer</li>
             <li>Mandolin</li>
             <li>Skiver</li>
-            <li>Mandrel or triblet</li>
+            <li>Mandrel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
             <li>Punty</li>
             <li>Ham</li>
             <li>Hardie hole</li>
@@ -58,7 +62,7 @@
             <li>Tooth Chisel</li>
         </ol>
         <aside class="notes">
-            <Answers/>
+            These funny sounding tools and equipment are used in various crafts. Name the crafts or profession who would use each.
         </aside>
     </section>
 </Round>

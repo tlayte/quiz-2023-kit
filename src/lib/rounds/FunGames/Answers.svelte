@@ -14,12 +14,12 @@
         <li>Cavity Sam | Operation</li>
     </ol>
     <p class="marker">3.</p>
-    <ol class="circle-list circle-grid span-12 smaller columns-1">
+    <ol class="circle-list circle-grid span-12 smaller columns-1" start="3">
         <li>Cold Porridge</li>
     </ol>
     <p class="marker">4.</p>
-    <ol class="circle-list circle-grid span-12 smaller columns-1">
-        <li>B is the only fictional Character</li>
+    <ol class="circle-list circle-grid span-12 smaller columns-1" start="2">
+        <li>This particular hobbit is the only fictional Character</li>
     </ol>
     <p class="marker">5.</p>
     <ol class="circle-list circle-grid span-12 smaller rows-2 columns-2">

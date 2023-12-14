@@ -32,7 +32,6 @@
         <h2>Code Monkey</h2>
     </section>
     <section data-question-number={++questionCount}>
-        What would be the output of line 9 in the following extremely simple c code?
         <pre><code data-trim data-line-numbers="8"><script type="text/template">
 #include <stdio.h>
 
@@ -45,15 +44,13 @@ int main() {
     return 0;
 }
 </script></code>
-
     </pre>
+        <aside class="notes">
+            What would be the output of line 8 in this extremely simple c code?
+        </aside>
     </section>
     <section>
         <h2>HTTP Errors</h2>
-        <aside class="notes">
-            I'm sure you've all seen these errors before when a website you were looking for broke in some way. But what
-            do they mean?
-        </aside>
     </section>
     <section data-question-number={++questionCount}>
         <ol class="circle-list">
@@ -63,10 +60,8 @@ int main() {
             <li>500</li>
         </ol>
         <aside class="notes">
-            403: forbidden
-            404: not found
-            418: I'm a teapot
-            500: internal server error.
+            I'm sure you've all seen error codes like these before when a website you were looking for broke in some way. But what
+            do they mean?
         </aside>
     </section>
     <section>
@@ -95,35 +90,35 @@ int main() {
             <li>USB</li>
             <li>RAM</li>
             <li>BIOS</li>
-            <li>HTML</li>
+            <li>HTML&nbsp;&nbsp;&nbsp;</li>
             <li>TWAIN</li>
             <li>PEBCAK</li>
             <li>RTFM</li>
             <li>PHP</li>
         </ol>
         <aside class="notes">
-            <ol style="list-style-type: upper-alpha; font-size:1rem;">
-                <li>Universal Serial Bus</li>
-                <li>Random Access Memory</li>
-                <li>Basic Input Output System</li>
-                <li>HyperText Markup Language</li>
-                <li>Technology Without An Interesting Name</li>
-                <li>Problem Exists Between Chair And Keyboard</li>
-                <li>Read the "Freaking" Manual</li>
-                <li>PHP: Hypertext Preprocessor</li>
-            </ol>
+            As you can see, there are a lot of acronyms in the world of computers. But what do they all mean?
         </aside>
-
     </section>
     <section data-background={Stars}>
         <h2>SPACE!</h2>
         <video src={Spayce} data-autoplay/>
     </section>
-    <PictureGroup Pictures={constellations} questionNumber={5}/>
-    <section data-question-number={6}>
+    <PictureGroup Pictures={constellations} questionNumber={5} customNotes={true}>
+        <svelete:fragment slot="notes">
+            <ol style="list-style-type: upper-alpha; font-size: 1.5rem;">
+                <li> bonus: name its brightest star.</li>
+                <li> bonus: name the large orange body below it in this picture.</li>
+                <li> bonus: name its two brightest stars</li>
+                <li> bonus: name the red giant start that forms its right eye</li>
+            </ol>
+        </svelete:fragment>
+    </PictureGroup>
+    <section data-question-number={6} data-timing={40}>
         <img class="solo" src={Bonus} alt=""/>
         <aside class="notes">
-            BONUS QUESTION - what is the name for a recognisable pattern of stars which hasn’t been designated as a constellation, such as this one, the Summer Triangle? - Asterism (eg the three stars of Orion’s belt, or the big dipper which is part of Ursa major, or this one, the Summer Triangle where each of the three stars is in a different constellation - Cygnus the Swan, Lyra the Harp and Aquila the Eagle
+            <p style="font-size: 1.5rem;">What is the name for a recognisable pattern of stars which hasn’t been designated as a constellation, such as this one?<br/>Bonus: What is this particular one called?<br/></p>
+            <p style="font-size: 1.2rem;">(eg the three stars of Orion’s belt, or the big dipper which is part of Ursa major, where each of the three stars is in a different constellation - Cygnus the Swan, Lyra the Harp and Aquila the Eagle</p>
         </aside>
     </section>
 </Round>
