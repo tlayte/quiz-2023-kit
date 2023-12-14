@@ -1,7 +1,7 @@
 <ol class="answer-grid" style="width: 90%;">
     <li class="span-12">311</li> <!--TODO: Fix the on the night -->
     <li class="span-12">
-        <ol class="circle-list smaller circle-grid columns-3 rows-5">
+        <ol class="circle-list smaller circle-grid columns-3 rows-5 span-12">
             <li>UK</li>
             <li>Germany</li>
             <li>Sweden</li>

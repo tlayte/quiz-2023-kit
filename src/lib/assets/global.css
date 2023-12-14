@@ -222,12 +222,24 @@ section .outlined:after {
     grid-column: span 4;
 }
 
-.rows-5 {
-    grid-template-rows: repeat(5, 1fr);
+.rows-1 {
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.rows-2 {
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .rows-4 {
     grid-template-rows: repeat(4, 1fr);
+}
+
+.rows-5 {
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.rows-6 {
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .rows-8 {
@@ -259,4 +271,25 @@ section .outlined:after {
 
 .columns-1 > li {
     grid-column: span 12;
+}
+
+.reveal .marker {
+    margin:0;
+    padding: 0;
+    position: relative;
+    right: 100%;
+    margin-bottom: -2.5rem;
+}
+
+.no-marker::marker {
+    content: none;
+}
+
+.reveal .circle-list > li.no-marker::before {
+    display: none;
+}
+.reveal .circle-list > li.no-marker {
+    margin-left: 0 !important;
+    border-radius: 10rem;
+    padding-inline: 1rem;
 }

@@ -1,7 +1,7 @@
 <div class="answer-grid">
-<ol class="circle-list circle-grid smallest numeric rows-9 columns-2 span-12">
+<ol class="circle-list circle-grid smaller numeric rows-9 columns-2 span-12">
     <li>The Hobbit &mdash; J R R Tolkein</li>
-    <li>Harry Potter and the Philospher's Stone &mdash; J K Rowling</li>
+    <li>Harry Potter 1 &mdash; J K Rowling</li>
     <li>Wuthering Heights &mdash; Emily Brontë</li>
     <li>A Tale of Two Cities &mdash; Charles Dickens</li>
     <li>The Great Gatsby &mdash; F Scott Fitzgerald</li>
