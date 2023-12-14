@@ -119,6 +119,10 @@ section .outlined:after {
     height: auto;
 }
 
+.reveal ol.circle-list.numeric {
+    list-style-type: decimal;
+}
+
 .reveal h4.subtitle {
     position: relative;
     font-size: 1.75rem;

@@ -47,7 +47,7 @@
     <section>
         <h2>name that retro console</h2>
     </section>
-    <PictureGroup questionNumber={getQuestion()} Pictures={consoleGroup} />
+    <PictureGroup questionNumber={5} Pictures={consoleGroup} />
 </Round>
 
 <style>
