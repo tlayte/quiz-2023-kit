@@ -25,7 +25,14 @@
 <Round roundNumber={roundNumber} title={Name}>
     <section>
         <h2>Big scary AI!</h2>
+        <aside class="notes">
+            Since the AI did such a good job at the last round, we decided to let it do the whole round this time.
+        </aside>
     </section>
     
-    <PictureGroup Pictures={group} questionNumber={1} />
+    <PictureGroup Pictures={group} questionNumber={1} customNotes={true}>
+        <svelte:fragment slot="notes">
+            Guess which well known phrase or saying the AI is trying to illustrate.
+        </svelte:fragment>
+    </PictureGroup>
 </Round>

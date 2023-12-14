@@ -32,6 +32,9 @@
 <Round roundNumber={roundNumber} title={Name}>
     <section>
         <h2>Songs inspired by...</h2>
+        <aside class="notes">
+            In the following questions, we will play a section of a song that was inspired by a famous artist. Tell us who the artist is, and for bonus points, the name of the song and the singer.
+        </aside>
     </section>
     <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={Matchstalk} />
@@ -71,5 +74,9 @@
     <section>
         <h2>Food inspired by...</h2>
     </section>
-    <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} TimePerPicture={15}/>
+    <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} TimePerPicture={15} customNotes={true}>
+        <svelte:fragment slot="notes">
+            These foods are all named after famous people. Can you tell us the names of the foods and the people who inspired them.
+        </svelte:fragment>
+    </PictureGroup>
 </Round>

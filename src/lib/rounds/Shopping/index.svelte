@@ -66,6 +66,9 @@
                 <li>Sweden</li>
             </ul>
         </div>
+        <aside class="notes">
+            Here we have scrambled a list of currencies and the countries they are/were associated with. Can you match them up?
+        </aside>
     </section>
     <section data-question-number={++questionCount}>
         <div class="sidebyside">
