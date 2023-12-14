@@ -251,8 +251,9 @@ section .outlined:after {
 }
 
 .columns-1 {
-    grid-template-rows: repeat(20, 1fr);
-
+    /*grid-template-rows: repeat(20, 1fr);*/
+    grid-auto-flow: row !important;
+    /*grid-template-columns: 1fr !important;*/
 }
 
 
