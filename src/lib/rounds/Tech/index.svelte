@@ -85,6 +85,7 @@ int main() {
         <h2>Acronyms</h2>
         <aside class="notes">
             We all use a lot of acronyms these days, sometimes without fully understanding what they mean.
+        </aside>
     </section>
     <section data-question-number={++questionCount} style="position: relative" data-timing="90">
         <h4>WTF is all this? IDEK and IDGAF, FML!</h4>

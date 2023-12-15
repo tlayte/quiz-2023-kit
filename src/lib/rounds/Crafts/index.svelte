@@ -4,7 +4,6 @@
 <script>
     import Round from '$lib/util/Round.svelte';
     import Tools from './assets/tools.webm';
-    import Answers from './Answers.svelte';
 
     /** @type {number} */
     export let roundNumber;
