@@ -32,7 +32,7 @@
         </ol>
         <aside class="notes">
             <p style="color:darkred">Annie</p>
-            !! Next slide plays a video. !!
+            <p style="color: magenta; font-weight: bolder;">!! Next slide plays a video. !!</p>
         </aside>
     </section>
     <section>
