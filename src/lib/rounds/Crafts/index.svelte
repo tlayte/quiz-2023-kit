@@ -42,7 +42,7 @@
             As that clip demonstrates, sometimes tools can have amusing or confusing names.
         </aside>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing="180">
         <ol class="circle-list columns">
             <li>Shuttle</li>
             <li>Spurtle</li>

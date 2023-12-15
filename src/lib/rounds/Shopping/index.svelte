@@ -23,13 +23,13 @@
     <section>
         <h2>Shopping Maths</h2>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing={30}>
         If an item reduced by 25% costs £0.99, what was the original price?
         <aside class="notes">
             £1.32
         </aside>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing={30}>
         You want to buy enough lace to trim a circular tablecloth which is 100cm wide.<br/> How would you calculate the circumference of the tablecloth using &pi;?
         <aside class="notes">
             &pi; d = 3.14 x 100 = 314cm
@@ -51,7 +51,7 @@
         <h2>Money money money</h2>
         <audio src={Money} data-autoplay/>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing={30}>
         <div class="sidebyside">
             <ul>
                 <li>Krona</li>
@@ -70,7 +70,7 @@
             Here we have scrambled a list of currencies and the countries they are/were associated with. Can you match them up?
         </aside>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing={30}>
         <div class="sidebyside">
             <ul>
                 <li>Peso</li>

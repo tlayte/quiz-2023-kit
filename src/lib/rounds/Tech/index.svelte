@@ -52,7 +52,7 @@ int main() {
     <section>
         <h2>HTTP Errors</h2>
     </section>
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing="40">
         <ol class="circle-list">
             <li>403</li>
             <li>404</li>
@@ -83,8 +83,10 @@ int main() {
     </section>
     <section>
         <h2>Acronyms</h2>
+        <aside class="notes">
+            We all use a lot of acronyms these days, sometimes without fully understanding what they mean.
     </section>
-    <section data-question-number={++questionCount} style="position: relative">
+    <section data-question-number={++questionCount} style="position: relative" data-timing="90">
         <h4>WTF is all this? IDEK and IDGAF, FML!</h4>
         <ol class="circle-list short-columns">
             <li>USB</li>

@@ -10,7 +10,9 @@
 <section>
     <h2>Name the artist</h2>
     <aside class="notes">
-        We are going to show you art from some of our members. Can you name the artist?
+        <p style="color: darkred">We are going to show you art from some of our members. Can you name the artist?<br/>
+            There are so many amazing artist to choose from, we can't show them all, so don't be offended if you don't
+            see your art here.</p>
     </aside>
 </section>
 

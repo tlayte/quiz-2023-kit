@@ -15,14 +15,14 @@
 
 <Round roundNumber={roundNumber} title={Name}>
     <Places bind:questionCount />
-    <section data-question-number={++questionCount}>
+    <section data-question-number={++questionCount} data-timing="60">
         <h4 class="subtitle">They call it <strong>WHAT?</strong></h4>
         <img src={CandyFloss} alt=""/>
         <ol class="circle-list small">
             <li>UK</li>
             <li>USA</li>
             <li>France</li>
-            <li>Spain/Germany</li>
+            <li>Germany</li>
             <li>Australia</li>
         </ol>
         <aside class="notes">

@@ -5,11 +5,12 @@
 <section>
     <h2>Famous Artists</h2>
     <aside class="notes">
-        Sort these famous artists in ascending order by year of birth
+        <p style="color: darkblue;">We're going to show you groups of 4 famous artists. Your job is to put them in order of year of birth
+            earliest to latest. You only need to write the corresponding letters on your answer sheet.</p>
     </aside>
 </section>
 
-<section data-question-number={++questionCount} data-auto-animate>
+<section data-question-number={++questionCount} data-auto-animate data-timing="30">
     <h4>In order of year of birth</h4>
     <ol class="circle-list small">
         <li>Michelangelo</li>
@@ -26,7 +27,7 @@
         </table>
     </aside>
 </section>
-<section data-question-number={++questionCount} data-auto-animate>
+<section data-question-number={++questionCount} data-auto-animate data-timing="30">
     <h4>In order of year of birth</h4>
     <ol class="circle-list small">
         <li>Claude Monet</li>
@@ -43,7 +44,7 @@
         </table>
     </aside>
 </section>
-<section data-question-number={++questionCount} data-auto-animate>
+<section data-question-number={++questionCount} data-auto-animate data-timing="30">
     <h4>In order of year of birth</h4>
     <ol class="circle-list small">
         <li>L. S. Lowry</li>

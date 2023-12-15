@@ -56,10 +56,10 @@
     import BangersMash from './assets/country-food/5-uk-bangers_mash.png?w=500&format=avif';
 
     const group_5 = [
-        {name: "Democracy Sausage", src: DemocracySausage},
-        {name: "Bratwurst & Sauerkraut", src: BratwurstSauerkraut},
-        {name: "Square Sausage", src: SquareSausage},
-        {name: "Bangers & Mash", src: BangersMash}
+        {name: "Democracy Sausage Australia", src: DemocracySausage},
+        {name: "Bratwurst & Sauerkraut Germany", src: BratwurstSauerkraut},
+        {name: "Square Sausage Scotland", src: SquareSausage},
+        {name: "Bangers & Mash England", src: BangersMash}
     ];
 
     import FritesMayo from './assets/country-food/6-belgium-frites_mayo.png?w=500&format=avif';

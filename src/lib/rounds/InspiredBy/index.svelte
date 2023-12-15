@@ -36,35 +36,35 @@
             In the following questions, we will play a section of a song that was inspired by a famous artist. Tell us who the artist is, and for bonus points, the name of the song and the singer.
         </aside>
     </section>
-    <section data-question-number={getQuestion()} data-timing={25}>
+    <section data-question-number={getQuestion()} data-timing={30}>
         <audio data-autoplay controls src={Matchstalk} />
         <aside class="notes">
             Matchstalk Men and Matchstalk Cats and Dogs - Brian and Michael<br/>
             L S Lowry
         </aside>
     </section>
-    <section data-question-number={getQuestion()} data-timing={15}>
+    <section data-question-number={getQuestion()} data-timing={20}>
         <audio data-autoplay controls src={SweetGene} />
         <aside class="notes">
             Sweet Gene Vincent - Ian Dury<br/>
             Gene Vincent
         </aside>
     </section>
-    <section data-question-number={getQuestion()}>
+    <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={StarryStarryNight} />
         <aside class="notes">
             Starry Starry Night - Don McLean<br/>
             Vincent Van Gogh
         </aside>
     </section>
-    <section data-question-number={getQuestion()}>
+    <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={MonaLisa} />
         <aside class="notes">
             Mona Lisa - Nat King Cole<br/>
             Leonardo da Vinci
         </aside>
     </section>
-    <section data-question-number={getQuestion()} data-timing={30}>
+    <section data-question-number={getQuestion()} data-timing={35}>
         <audio data-autoplay controls src={AndyWarhol} />
         <aside class="notes">
             Andy Warhol - David Bowie<br/>

@@ -29,40 +29,40 @@
             In this round we will play you roughly 20 seconds of the intro or theme of a popular series. You have to write the name of the show.
         </aside>
     </section>
-    <Intro track={DrWho} questionNumber={++questionCount}>
+    <Intro track={DrWho} questionNumber={++questionCount} timing={25}>
         Doctor Who
     </Intro>
-    <Intro track={Potter} questionNumber={++questionCount}>
+    <Intro track={Potter} questionNumber={++questionCount} timing={25}>
         Harry Potter
     </Intro>
-    <Intro track={GameOfThrones} questionNumber={++questionCount}>
+    <Intro track={GameOfThrones} questionNumber={++questionCount} timing={25}>
         Game of Thrones
     </Intro>
-    <Intro track={KnightRider} questionNumber={++questionCount} timing={30}>
+    <Intro track={KnightRider} questionNumber={++questionCount} timing={35}>
         Knight Rider
     </Intro>
-    <Intro track={Airwolf} questionNumber={++questionCount}>
+    <Intro track={Airwolf} questionNumber={++questionCount} timing={25}>
         Airwolf
     </Intro>
-    <Intro track={ATeam} questionNumber={++questionCount}>
+    <Intro track={ATeam} questionNumber={++questionCount} timing={25}>
         A-Team
     </Intro>
-    <Intro track={Hawaii50} questionNumber={++questionCount}>
+    <Intro track={Hawaii50} questionNumber={++questionCount} timing={25}>
         Hawaii 5-0
     </Intro>
-    <Intro track={Mash} questionNumber={++questionCount} timing={30}>
+    <Intro track={Mash} questionNumber={++questionCount} timing={35}>
         MASH
     </Intro>
-    <Intro track={RickAndMorty} questionNumber={++questionCount}>
+    <Intro track={RickAndMorty} questionNumber={++questionCount} timing={25}>
         Rick and Morty
     </Intro>
-    <Intro track={TheSimpsons} questionNumber={++questionCount}>
+    <Intro track={TheSimpsons} questionNumber={++questionCount} timing={25}>
         The Simpsons
     </Intro>
-    <Intro track={Appearances} questionNumber={++questionCount}>
+    <Intro track={Appearances} questionNumber={++questionCount} timing={25}>
         Keeping Up Appearances
     </Intro>
-    <Intro track={Dark} questionNumber={++questionCount}>
+    <Intro track={Dark} questionNumber={++questionCount} timing={25}>
         Dark
     </Intro>
 </Round>
