@@ -19,7 +19,7 @@
         <li>James McNeill Whistler</li>
     </ol>
     <aside class="notes">
-        <table>
+        <table style="color:darkblue">
             <tr><td>Leonardo da Vinci</td><td>1452</td></tr>
             <tr><td>Michelangelo</td><td>1475</td></tr>
             <tr><td>James McNeill Whistler</td><td>1834</td></tr>
@@ -36,7 +36,7 @@
         <li>Andy Warhol</li>
     </ol>
     <aside class="notes">
-        <table>
+        <table style="color:darkblue">
             <tr><td>Claude Monet</td><td>1840</td></tr>
             <tr><td>Henri de Toulouse-Lautrec</td><td>1864</td></tr>
             <tr><td>Andy Warhol</td><td>1928</td></tr>
@@ -53,7 +53,7 @@
         <li>Pierre-Auguste Renoir</li>
     </ol>
     <aside class="notes">
-        <table>
+        <table style="color:darkblue">
             <tr><td>Peter Paul Rubens</td><td>1577</td></tr>
             <tr><td>Pierre-Auguste Renoir</td><td>1841</td></tr>
             <tr><td>Vincent van Gogh</td><td>1853</td></tr>

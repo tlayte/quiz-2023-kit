@@ -2,6 +2,7 @@
     export let PictureData;
     export let Letter;
     export let addNote = true;
+    export let noteColour = "black";
 </script>
 
 <div class="artist">
@@ -9,7 +10,9 @@
     <p class="label">{Letter}</p>
     {#if addNote}
     <aside class="notes">
-        {Letter}) {PictureData.name}<br/>
+        <p style="color: {noteColour};">
+            {Letter}) {PictureData.name}
+        </p>
     </aside>
     {/if}
 </div>

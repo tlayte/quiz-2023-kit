@@ -22,7 +22,7 @@
             artists.BB,
             artists.Dawn,
             artists.Abgarok,
-            ]}/>
+            ]} noteColour="darkred"/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -30,7 +30,7 @@
             artists.Soo,
             artists.Thornius,
             artists.Traceyanne,
-            ]}/>
+            ]} noteColour="darkblue"/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -38,7 +38,7 @@
             artists.Flyt,
             artists.Gaby,
             artists.Kerryanne,
-            ]}/>
+            ]} noteColour="darkred"/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -46,4 +46,4 @@
                 artists.Pepper,
                 artists.Tori,
                 artists.Zoe,
-                ]}/>
+                ]} noteColour="darkblue"/>

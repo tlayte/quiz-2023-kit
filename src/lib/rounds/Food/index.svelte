@@ -26,7 +26,7 @@
             <li>Australia</li>
         </ol>
         <aside class="notes">
-            What is this sweet treat called in these countries?
+            <p style="color:darkblue">What is this sweet treat called in these countries?</p>
         </aside>
     </section>
 </Round>

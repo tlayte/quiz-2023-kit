@@ -14,19 +14,24 @@
     <section data-timing="8">
         <h2>Questions inspired by our community</h2>
         <aside class="notes">
-            These are questions inspired by people in our community. Don't worry if you're new, you can still get some of these right!
+            <p style="color:darkred">These are questions inspired by people in our community. Don't worry if you're
+                new, you can still get
+                some of these right!</p>
         </aside>
     </section>
     <section data-question-number={++questionCount} data-timing="10">
         How many members do we currently have in our Discord server?
         <aside class="notes">
-            How many members do we currently have in our Discord server as of the start of the quiz? Within 20 is fine.
+            <p style="color:darkred">How many members do we currently have in our Discord server as of the start of the
+                quiz? Within 20 is
+                fine.</p>
         </aside>
     </section>
     <section data-question-number={++questionCount} data-timing="10">
         <h2>Match these flags to the country names</h2>
         <aside class="notes">
-            These flags all represent countries that members of our community are from. Write the country represented by each flag. You will get 1 point for each correct answer.
+            <p style="color:darkred">These flags all represent countries that members of our community are from. Write the country represented
+                by each flag. You will get 1 point for each correct answer.</p>
         </aside>
     </section>
     <section data-question-number={questionCount} data-timing={14*8}> <!-- /* 8 seconds per flag */ -->
@@ -35,7 +40,8 @@
     <section data-question-number={++questionCount} data-timing="8">
         <h2>Guess who</h2>
         <aside class="notes">
-            Guess the username from the following cryptic clues. You will get 1 point for each correct answer.
+            <p style="color:darkblue">Guess the username from the following cryptic clues. You will get 1 point for each
+                correct answer.</p>
         </aside>
     </section>
     <section data-question-number={questionCount} data-timing={8*22}> <!-- /* 20 seconds per clue */ -->
@@ -51,7 +57,9 @@
             <li>Comfortable and easy to wear</li>
         </ol>
         <aside class="notes">
-            These all describe the name of someone in the discord. We've given you about 20 seconds per clue, but you can move on to the next one if you're stuck.
+            <p style="color:darkblue">These all describe the name of someone in the discord. We've given you about 20
+                seconds per clue, but you
+                can move on to the next one if you're stuck.</p>
         </aside>
     </section>
 

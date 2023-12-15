@@ -33,12 +33,15 @@
     <section>
         <h2>Songs inspired by...</h2>
         <aside class="notes">
-            In the following questions, we will play a section of a song that was inspired by a famous artist. Tell us who the artist is, and for bonus points, the name of the song and the singer.
+            <p style="color:darkblue">In the following questions, we will play a section of a song that was inspired by
+                a famous artist. Tell
+                us the person each was inspired by, and for bonus points, the name of the song and the singer.</p>
         </aside>
     </section>
     <section data-question-number={getQuestion()} data-timing={30}>
         <audio data-autoplay controls src={Matchstalk} />
         <aside class="notes">
+            <p style="color:darkblue">Tom</p>
             Matchstalk Men and Matchstalk Cats and Dogs - Brian and Michael<br/>
             L S Lowry
         </aside>
@@ -46,6 +49,7 @@
     <section data-question-number={getQuestion()} data-timing={20}>
         <audio data-autoplay controls src={SweetGene} />
         <aside class="notes">
+            <p style="color:darkblue">Tom</p>
             Sweet Gene Vincent - Ian Dury<br/>
             Gene Vincent
         </aside>
@@ -53,6 +57,7 @@
     <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={StarryStarryNight} />
         <aside class="notes">
+            <p style="color:darkblue">Tom</p>
             Starry Starry Night - Don McLean<br/>
             Vincent Van Gogh
         </aside>
@@ -60,6 +65,7 @@
     <section data-question-number={getQuestion()} data-timing={25}>
         <audio data-autoplay controls src={MonaLisa} />
         <aside class="notes">
+            <p style="color:darkblue">Tom</p>
             Mona Lisa - Nat King Cole<br/>
             Leonardo da Vinci
         </aside>
@@ -67,6 +73,7 @@
     <section data-question-number={getQuestion()} data-timing={35}>
         <audio data-autoplay controls src={AndyWarhol} />
         <aside class="notes">
+            <p style="color:darkblue">Tom</p>
             Andy Warhol - David Bowie<br/>
             Andy Warhol
         </aside>
@@ -76,7 +83,9 @@
     </section>
     <PictureGroup Pictures={foodGroup} questionNumber={++questionCount} TimePerPicture={15} customNotes={true}>
         <svelte:fragment slot="notes">
-            These foods are all named after famous people. Can you tell us the names of the foods and the people who inspired them.
+            <p style="color:darkred">These foods are all named after famous people. Can you tell us the names of the
+                foods and the people who
+                inspired them.</p>
         </svelte:fragment>
     </PictureGroup>
 </Round>

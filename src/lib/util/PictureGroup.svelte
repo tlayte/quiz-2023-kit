@@ -7,6 +7,7 @@
     export let Subtitle = "";
     export let TimePerPicture = 10;
     export let customNotes = false;
+    export let noteColour = "black";
 </script>
 
 <section data-question-number={questionNumber} data-timing={4*TimePerPicture}>
@@ -14,10 +15,10 @@
         <h4 class="subtitle">{Subtitle}</h4>
     {/if}
     <div class="artgrid">
-        <Picture PictureData={Pictures[0]} Letter="A" addNote={!customNotes}/>
-        <Picture PictureData={Pictures[1]} Letter="B" addNote={!customNotes}/>
-        <Picture PictureData={Pictures[2]} Letter="C" addNote={!customNotes}/>
-        <Picture PictureData={Pictures[3]} Letter="D" addNote={!customNotes}/>
+        <Picture PictureData={Pictures[0]} Letter="A" addNote={!customNotes} noteColour={noteColour}/>
+        <Picture PictureData={Pictures[1]} Letter="B" addNote={!customNotes} noteColour={noteColour}/>
+        <Picture PictureData={Pictures[2]} Letter="C" addNote={!customNotes} noteColour={noteColour}/>
+        <Picture PictureData={Pictures[3]} Letter="D" addNote={!customNotes} noteColour={noteColour}/>
     </div>
     <aside class="notes">
         <slot name="notes"/>

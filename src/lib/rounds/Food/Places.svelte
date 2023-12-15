@@ -123,15 +123,22 @@
     ];
 
     const getQuestion = () => ++questionCount;
+    let currentColour = "darkblue";
+    const getColour = () => {
+        currentColour = currentColour === "darkred" ? "darkblue" : "darkred";
+        return currentColour;
+    }
 
 </script>
 <section>
     <h2>Foods from around the world</h2>
     <aside class="notes">
-        We are going to show you pictures of foods from around the world. You need to decide which country each food is from (multiple choice). Bonus points if you can name the food!
+        <p style="color:darkblue">We are going to show you pictures of foods from around the world. You need to decide
+            which country each food
+            is from (multiple choice). Bonus points if you can name the food!</p>
     </aside>
 </section>
 
 {#each groups as group}
-    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name}/>
+    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name} noteColour={getColour()}/>
 {/each}

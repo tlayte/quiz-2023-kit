@@ -17,8 +17,8 @@
 <section data-question-number={++questionCount}>
     <h4>How many squares are there in the online gallery for the first Great Big Little Stitchery Swap?</h4>
     <aside class="notes">
-        Within 20 is fine.
-        542
+        <p style="color:darkred">Within 20 is fine.
+            542</p>
     </aside>
 </section>
     <section data-question-number={++questionCount}>
@@ -31,14 +31,16 @@
             <li>Jacquie</li>
         </ol>
         <aside class="notes">
-            Annie
+            <p style="color:darkred">Annie</p>
+            !! Next slide plays a video. !!
         </aside>
     </section>
     <section>
         <h3>What's that tool for?</h3>
-        <video src={Tools} width="640" controls/>
+        <video src={Tools} width="640" data-autoplay style="border-radius: 1rem;"/>
         <aside class="notes">
-            As that clip demonstrates, sometimes tools can have amusing or confusing names.
+            <p style="color:darkblue">As that clip demonstrates, sometimes tools can have amusing or confusing
+                names.</p>
         </aside>
     </section>
     <section data-question-number={++questionCount} data-timing="180">
@@ -61,7 +63,9 @@
             <li>Tooth Chisel</li>
         </ol>
         <aside class="notes">
-            These funny sounding tools and equipment are used in various crafts. Name the crafts or profession who would use each.
+            <p style="color:darkblue">These funny sounding tools and equipment are used in various crafts. Name the
+                craft or profession in
+                which you would use them.</p>
         </aside>
     </section>
 </Round>
