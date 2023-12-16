@@ -23,7 +23,7 @@
             How many members do we currently have in our Discord server as of the start of the quiz? Within 20 is fine.
         </aside>
     </section>
-    <section data-question-number={++questionCount} data-timing="10">
+    <section data-question-number={++questionCount} data-timing="20">
         <h2>Match these flags to the country names</h2>
         <aside class="notes">
             These flags all represent countries that members of our community are from. Write the country represented by each flag. You will get 1 point for each correct answer.

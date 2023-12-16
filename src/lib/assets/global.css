@@ -40,7 +40,7 @@ section .outlined:after {
     justify-content: center;
     align-items: center;
     font-family: Lapsus, sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     position: fixed;
     width: 100%;
     z-index: 100;

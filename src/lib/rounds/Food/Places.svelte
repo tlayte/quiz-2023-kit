@@ -133,5 +133,5 @@
 </section>
 
 {#each groups as group}
-    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name}/>
+    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name} TimePerPicture={20} />
 {/each}

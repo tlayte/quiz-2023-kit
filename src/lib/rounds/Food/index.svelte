@@ -15,7 +15,7 @@
 
 <Round roundNumber={roundNumber} title={Name}>
     <Places bind:questionCount />
-    <section data-question-number={++questionCount} data-timing="60">
+    <section data-question-number={++questionCount} data-timing="70">
         <h4 class="subtitle">They call it <strong>WHAT?</strong></h4>
         <img src={CandyFloss} alt=""/>
         <ol class="circle-list small">

@@ -22,7 +22,7 @@
             artists.BB,
             artists.Dawn,
             artists.Abgarok,
-            ]}/>
+            ]} TimePerPicture={20}/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -30,7 +30,7 @@
             artists.Soo,
             artists.Thornius,
             artists.Traceyanne,
-            ]}/>
+            ]} TimePerPicture={20}/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -38,7 +38,7 @@
             artists.Flyt,
             artists.Gaby,
             artists.Kerryanne,
-            ]}/>
+            ]} TimePerPicture={20}/>
 
 <PictureGroup questionNumber={++questionCount}
           Pictures={[
@@ -46,4 +46,4 @@
                 artists.Pepper,
                 artists.Tori,
                 artists.Zoe,
-                ]}/>
+                ]} TimePerPicture={20}/>

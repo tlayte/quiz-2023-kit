@@ -82,7 +82,7 @@
                 <li>Belize</li>
                 <li>South Africa</li>
                 <li>Poland</li>
-                <li>Columbia</li>
+                <li>Colombia</li>
             </ul>
         </div>
     </section>

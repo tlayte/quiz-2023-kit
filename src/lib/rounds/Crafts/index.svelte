@@ -14,7 +14,7 @@
 <section>
     <h2>Great Big Little Stitchery Swap</h2>
 </section>
-<section data-question-number={++questionCount}>
+<section data-question-number={++questionCount} data-timing={35}>
     <h4>How many squares are there in the online gallery for the first Great Big Little Stitchery Swap?</h4>
     <aside class="notes">
         Within 20 is fine.
