@@ -15,50 +15,53 @@
 
 <section>
     <h2>Famous photographs</h2>
+    <aside class="notes">
+        <p style="color:darkred">Next we are going to show you some famous photos, and ask you about them</p>
+    </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={DarkSide} alt="" />
     <aside class="notes">
-        What was novel about this image and when was it taken?
+        <p style="color:darkred">What was novel about this image and when was it taken?</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={AbbeyRoad} alt="" />
     <aside class="notes">
-        Who were they and where was this taken?
+        <p style="color:darkblue">Who were they and where was this taken?</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={BeamLads} alt="" />
     <aside class="notes">
-        Where were they and what structure were they working on?<br/>
-        Both the photographer and the workers are unknown.
+        <p style="color:darkred">Where were they and what structure were they working on?<br/>
+            Both the photographer and the workers are unknown.</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={Guevara} alt="" />
     <aside class="notes">
-        What year was this, what was his name?<br/>
-        Extra points for his full real name.
+        <p style="color:darkblue">What year was this, what was his name?<br/>
+            Extra points for his full real name.</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={MLK} alt="" />
     <aside class="notes">
-        Who was this, and which award had he just received?<br/>
+        <p style="color:darkred">Who was this, and which award had he just received?<br/></p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={Orphan} alt="" />
     <aside class="notes">
-        Which publication featured this photo on the cover?<br/>
-        How many times?<br/>
+        <p style="color:darkblue">Which publication featured this photo on the cover?<br/>
+            How many times?<br/></p>
         This photo of a 12 year old orphan refugee on the pakistan/afghanistan border was taken by Steve McCurry.<br/>
         she was later found and named Sharbat Gula.
     </aside>
@@ -67,23 +70,22 @@
 <section data-question-number={++questionCount}>
     <img src={MalcolmX} alt="" />
     <aside class="notes">
-        Who is this, for bonus what does the symbol on his ring represent?
+        <p style="color:darkred">Who is this, for bonus what does the symbol on his ring represent?</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={Tiananmen_Square} alt="" />
     <aside class="notes">
-        Where is this, and what was the year?<br/>
-        What does china say happened here?
+        <p style="color:darkblue">Where is this, and what was the year?</p>
     </aside>
 </section>
 
 <section data-question-number={++questionCount}>
     <img src={ColumbiaPictures} alt="" />
     <aside class="notes">
-        Which film studio is associated with this image?<br/>
-        When was the photo that inspired it taken?<br/>
+        <p style="color:darkred">Which film studio is associated with this image?<br/>
+            When was the photo that inspired it taken?</p>
         Artwork by Michael J. Deas. Based on a statue at the top of the Soldiers' and Sailors' Monument in Indianapolis, Indiana. Photo by Kathy Anderson.
         model was Jennifer Joseph.
     </aside>

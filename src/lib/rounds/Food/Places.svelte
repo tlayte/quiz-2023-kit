@@ -8,10 +8,10 @@
     import Pasties from './assets/country-food/1-uk-cornish_pasties.png?w=500&format=avif';
 
     const group_1 = [
-        {name: "Panades", src: Panades},
-        {name: "Karelian Pies", src: KarelianPies},
-        {name: "Calzone", src: Calzone},
-        {name: "Cornish Pasties", src: Pasties}
+        {name: "Belize", src: Panades},
+        {name: "Finland", src: KarelianPies},
+        {name: "Italy", src: Calzone},
+        {name: "UK", src: Pasties}
     ];
 
     import FryJacks from './assets/country-food/2-belize-fry_jacks.png?w=500&format=avif';
@@ -20,10 +20,10 @@
     import Pierogi from './assets/country-food/2-poland-pierogi.png?w=500&format=avif';
 
     const group_2 = [
-        {name: "Fry Jacks", src: FryJacks},
-        {name: "Spaetzle", src: Spaetzle},
-        {name: "Momos", src: Momos},
-        {name: "Pierogi", src: Pierogi}
+        {name: "Belize", src: FryJacks},
+        {name: "Germany", src: Spaetzle},
+        {name: "India", src: Momos},
+        {name: "Poland", src: Pierogi}
     ];
 
     import Waffles from './assets/country-food/3-belgium-waffles.png?w=500&format=avif';
@@ -32,10 +32,10 @@
     import Pancakes from './assets/country-food/3-usa-pancakes.png?w=500&format=avif';
 
     const group_3 = [
-        {name: "Waffles", src: Waffles},
-        {name: "Poffertjes", src: Poffertjes},
-        {name: "Yorkshire Puddings", src: YorkshirePuddings},
-        {name: "Pancakes", src: Pancakes}
+        {name: "Belgium", src: Waffles},
+        {name: "The Netherlands", src: Poffertjes},
+        {name: "UK", src: YorkshirePuddings},
+        {name: "USA", src: Pancakes}
     ];
 
     import NanaimoBars from './assets/country-food/4-canada-nanaimo_bars.png?w=500&format=avif';
@@ -44,10 +44,10 @@
     import FriendsTrifle from './assets/country-food/4-usa-friends_trifle.png?w=500&format=avif';
 
     const group_4 = [
-        {name: "Nanaimo Bars", src: NanaimoBars},
-        {name: "Bobotie", src: Bobotie},
-        {name: "Smorgastarta", src: Smorgastarta},
-        {name: "Friends Trifle", src: FriendsTrifle}
+        {name: "Canada", src: NanaimoBars},
+        {name: "South Africa", src: Bobotie},
+        {name: "Sweden", src: Smorgastarta},
+        {name: "USA", src: FriendsTrifle}
     ];
 
     import DemocracySausage from './assets/country-food/5-australia-democracy_sausage.png?w=500&format=avif';
@@ -56,10 +56,10 @@
     import BangersMash from './assets/country-food/5-uk-bangers_mash.png?w=500&format=avif';
 
     const group_5 = [
-        {name: "Democracy Sausage Australia", src: DemocracySausage},
-        {name: "Bratwurst & Sauerkraut Germany", src: BratwurstSauerkraut},
-        {name: "Square Sausage Scotland", src: SquareSausage},
-        {name: "Bangers & Mash England", src: BangersMash}
+        {name: "Australia", src: DemocracySausage},
+        {name: "Germany", src: BratwurstSauerkraut},
+        {name: "Scotland", src: SquareSausage},
+        {name: "England", src: BangersMash}
     ];
 
     import FritesMayo from './assets/country-food/6-belgium-frites_mayo.png?w=500&format=avif';
@@ -68,10 +68,10 @@
     import SteakFries from './assets/country-food/6-usa-steak_fries.jpg?w=500&format=avif';
 
     const group_6 = [
-        {name: "Frites & Mayo", src: FritesMayo},
-        {name: "Poutine", src: Poutine},
-        {name: "Rosti", src: Rosti},
-        {name: "Steak Fries", src: SteakFries}
+        {name: "Belgium", src: FritesMayo},
+        {name: "Canada", src: Poutine},
+        {name: "Switzerland", src: Rosti},
+        {name: "USA", src: SteakFries}
     ];
 
     import BushTucker from './assets/country-food/7-australia-bush_tucker.png?w=500&format=avif';
@@ -80,10 +80,10 @@
     import Laverbread from './assets/country-food/7-wales-laverbread.png?w=500&format=avif';
 
     const group_7 = [
-        {name: "Bush Tucker", src: BushTucker},
-        {name: "Perigord Truffle", src: PerigordTruffle},
-        {name: "Samphire", src: Samphire},
-        {name: "Laverbread", src: Laverbread}
+        {name: "Australia", src: BushTucker},
+        {name: "France", src: PerigordTruffle},
+        {name: "UK", src: Samphire},
+        {name: "Wales", src: Laverbread}
     ];
 
     import PescadoFrito from './assets/country-food/8-colombia-pescado_frito.png?w=500&format=avif';
@@ -92,10 +92,10 @@
     import JelliedEels from './assets/country-food/8-uk-jellied_eels.png?w=500&format=avif';
 
     const group_8 = [
-        {name: "Pescado Frito", src: PescadoFrito},
-        {name: "Whitebait Fritters", src: WhitebaitFritters},
-        {name: "Surstromming", src: Surstromming},
-        {name: "Jellied Eels", src: JelliedEels}
+        {name: "Colombia", src: PescadoFrito},
+        {name: "New Zealand", src: WhitebaitFritters},
+        {name: "Sweden", src: Surstromming},
+        {name: "England", src: JelliedEels}
     ];
 
     import Sauerkraut from './assets/country-food/9-germany-sauerkraut.png?w=500&format=avif';
@@ -104,10 +104,10 @@
     import Piccalilli from './assets/country-food/9-uk-piccalilli.png?w=500&format=avif';
 
     const group_9 = [
-        {name: "Sauerkraut", src: Sauerkraut},
-        {name: "Kimchi", src: Kimchi},
-        {name: "Orgorki Gherkins", src: Orgorki},
-        {name: "Piccalilli", src: Piccalilli}
+        {name: "Germany", src: Sauerkraut},
+        {name: "Korea", src: Kimchi},
+        {name: "Poland", src: Orgorki},
+        {name: "UK", src: Piccalilli}
     ];
 
     const groups = [
@@ -123,15 +123,22 @@
     ];
 
     const getQuestion = () => ++questionCount;
+    let currentColour = "darkblue";
+    const getColour = () => {
+        currentColour = currentColour === "darkred" ? "darkblue" : "darkred";
+        return currentColour;
+    }
 
 </script>
 <section>
     <h2>Foods from around the world</h2>
     <aside class="notes">
-        We are going to show you pictures of foods from around the world. You need to decide which country each food is from (multiple choice). Bonus points if you can name the food!
+        <p style="color:darkblue">We are going to show you pictures of foods from around the world. You need to decide
+            which country each food
+            is from (multiple choice). Bonus points if you can name the food!</p>
     </aside>
 </section>
 
 {#each groups as group}
-    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name} TimePerPicture={20} />
+    <PictureGroup questionNumber={getQuestion()} Pictures={group.images} Subtitle={group.name} noteColour={getColour()} TimePerPicture={20}/>
 {/each}

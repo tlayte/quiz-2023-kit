@@ -17,12 +17,12 @@
     <section>
         <h2>Name that game character!</h2>
         <aside class="notes">
-            Name these well known game characters (yes, they do all have names). <br />
-            Extra points for the game they are from.
+            <p style="color:darkred">Name these well known game characters (yes, they do all have names). <br/>
+                Extra points for the game they are from.</p>
         </aside>
     </section>
-    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup1} />
-    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup2} />
+    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup1} noteColour="darkred" />
+    <PictureGroup questionNumber={getQuestion()} Pictures={characterGroup2} noteColour="darkred" />
     <section>
         <h2>Odd one out</h2>
     </section>
@@ -36,7 +36,9 @@
             <li>Letters Unread</li>
         </ol>
         <aside class="notes">
-            All but one of these is a genuine shade of grey in the Dulux paint range. Which one is the odd one out?
+            <p style="color:darkblue">All but one of these is a genuine shade of grey in the Dulux paint range. Which
+                one is the odd one
+                out?</p>
         </aside>
 
     </section>
@@ -48,8 +50,10 @@
             <div><img src={oddOneOutGroup[2]} alt="" /><p class="label">C</p></div>
         </div>
         <aside class="notes">
-            There are similaries and differences between these three characters. Which one is the odd one out and why?<br/>
-            <small>Hint: They are not actually all the same person, despite the size.</small>
+            <p style="color:darkblue">There are similaries and differences between these three characters. Which one is
+                the odd one out and
+                why?<br/>
+                <small>Hint: They are not actually all the same person, despite the size.</small></p>
         </aside>
 
     </section>
@@ -58,8 +62,9 @@
     </section>
     <PictureGroup questionNumber={5} Pictures={consoleGroup} customNotes={true}>
         <svelte:fragment slot="notes">
-            <p>Can you name these retro consoles?</p>
-            <p>I have very helpfully gone through and removed any brand names</p>
+            <p style="color:darkred">Can you name these retro consoles?</p>
+            <p style="color:darkred">Tom has very helpfully gone through and removed any brand names so that it's not too easy for you</p>
+            <p style="color:darkblue">you're welcome</p>
         </svelte:fragment>
     </PictureGroup>
 </Round>

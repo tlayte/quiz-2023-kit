@@ -13,11 +13,14 @@
 <Round roundNumber={roundNumber} title={Name}>
     <section>
         <h2>A shameless plug</h2>
+        <aside class="notes">
+            <p style="color:darkred">An intro to the shopping round</p>
+        </aside>
     </section>
     <section data-question-number={++questionCount}>
         <p>Where would you go to buy creations from our very own members?</p>
         <aside class="notes">
-            Makers Market
+            <p style="color:darkblue">Tom</p>
         </aside>
     </section>
     <section>
@@ -26,12 +29,13 @@
     <section data-question-number={++questionCount} data-timing={30}>
         If an item reduced by 25% costs £0.99, what was the original price?
         <aside class="notes">
-            £1.32
+            <p style="color:darkred">Hobbit</p>
         </aside>
     </section>
     <section data-question-number={++questionCount} data-timing={30}>
         You want to buy enough lace to trim a circular tablecloth which is 100cm wide.<br/> How would you calculate the circumference of the tablecloth using &pi;?
         <aside class="notes">
+            <p style="color:darkred">Hobbit</p>
             &pi; d = 3.14 x 100 = 314cm
         </aside>
     </section>
@@ -44,7 +48,9 @@
         </ol>
         <p>Which pack is the best value for money?</p>
         <aside class="notes">
+            <p style="color:darkred">Hobbit</p>
             The 15 pens for 16.50 euros pack is the best value for money. Each pen costs 1.10 euros.
+            <div style="color:magenta; font-weight: bolder;">!! Music plays on next slide !!</div>
         </aside>
     </section>
     <section>
@@ -67,7 +73,9 @@
             </ul>
         </div>
         <aside class="notes">
-            Here we have scrambled a list of currencies and the countries they are/were associated with. Can you match them up?
+            <p style="color:darkblue">Here we have scrambled a list of currencies and the countries they are/were
+                associated with. Can you
+                match them up?</p>
         </aside>
     </section>
     <section data-question-number={++questionCount} data-timing={30}>
@@ -85,6 +93,10 @@
                 <li>Colombia</li>
             </ul>
         </div>
+        <aside class="notes">
+            <p style="color:darkred">Hobbit</p>
+        </aside>
+
     </section>
 </Round>
 <style>

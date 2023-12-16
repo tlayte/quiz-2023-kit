@@ -26,7 +26,9 @@
     <section data-timing="10">
         <h2>Name that theme tune/intro</h2>
         <aside class="notes">
-            In this round we will play you roughly 20 seconds of the intro or theme of a popular series. You have to write the name of the show.
+            <p style="color:darkblue">In this round we will play you roughly 20 seconds of the intro or theme of a
+                popular series. You have to
+                write the name of the show.</p>
         </aside>
     </section>
     <Intro track={DrWho} questionNumber={++questionCount} timing={25}>
