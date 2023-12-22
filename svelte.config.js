@@ -1,4 +1,7 @@
-import adapter from '@sveltejs/adapter-static';
+import staticAdapter from '@sveltejs/adapter-static';
+import vercelAdapter from '@sveltejs/adapter-vercel';
+
+const adapter = process.env.ADAPTER === 'vercel' ? vercelAdapter : staticAdapter;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
